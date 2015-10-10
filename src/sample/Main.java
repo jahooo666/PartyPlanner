@@ -1,6 +1,8 @@
 package sample;
 
 import javafx.application.Application;
+import javafx.beans.value.ChangeListener;
+import javafx.beans.value.ObservableValue;
 import javafx.collections.FXCollections;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
@@ -94,9 +96,21 @@ public class Main extends Application {
         alcoholVBox.getChildren().addAll(alcoholImageView, alcoholTextField);
         */
         final ComboBox alcohols = new ComboBox(FXCollections.observableArrayList("Piwo", "Wino", "Drinki", "Wódka"));
-        alcohols.setPromptText("Typ alkoholu");
         alcoholVBox.getChildren().addAll(alcoholImageView, alcohols);
-        alcoholVBox.setAlignment(Pos.TOP_CENTER);
+        alcohols.valueProperty().addListener(new ChangeListener<String>() {
+            @Override public void changed(ObservableValue ov, String t, String t1) {
+                if(t1.equals("Piwo")) {
+                    alcoholImageView.setImage(new Image("graphics/napoje_piwo.png", true));
+                } else if(t1.equals("Wino")) {
+                    alcoholImageView.setImage(new Image("graphics/napoje_wino.png", true));
+                } else if(t1.equals("Drinki")){
+                    alcoholImageView.setImage(new Image("graphics/napoje_drinki.png", true));
+                } else {
+                    alcoholImageView.setImage(new Image("graphics/napoje_wodka.png", true));
+                }
+
+            };
+        });
 
         VBox sobertyLevelVBox = new VBox();
         Image sobertyLevelImage = new Image("graphics/stopien_1_hipster.png", true);
@@ -112,21 +126,31 @@ public class Main extends Application {
         sobertyLevelVBox.getChildren().addAll(sobertyLevelImageView,sobertyLevelTextField);
         */
         final ComboBox sobertyLevel = new ComboBox(FXCollections.observableArrayList("Kulturalna prywatka", "Klasyczna domówka", "Mordownia"));
+        sobertyLevel.valueProperty().addListener(new ChangeListener<String>() {
+            @Override public void changed(ObservableValue ov, String t, String t1) {
+                if(t1.equals("Kulturalna prywatka")) {
+                    sobertyLevelImageView.setImage(new Image("graphics/stopien_1_hipster.png", true));
+                } else if(t1.equals("Mordownia")) {
+                    sobertyLevelImageView.setImage(new Image("graphics/stopien_3_swinia.png", true));
+                } else {
+                    sobertyLevelImageView.setImage(new Image("graphics/stopien_2_luzak.png", true));
+                }
+
+            };
+        });
         sobertyLevelVBox.getChildren().addAll(sobertyLevelImageView, sobertyLevel);
-        sobertyLevel.setPromptText("Rodzaj imprezy");
-        sobertyLevelVBox.setAlignment(Pos.TOP_CENTER);
 
         VBox moneyVBox = new VBox();
         Image moneyImage = new Image("graphics/5_kasa.png", true);
         ImageView moneyImageView = new ImageView();
         moneyImageView.setImage(moneyImage);
         moneyImageView.setSmooth(true);
-        moneyImageView.setFitHeight( IconWidthHeight);
+        moneyImageView.setFitHeight(IconWidthHeight);
         moneyImageView.setFitWidth(IconWidthHeight);
         TextField moneyTextField = new TextField();
         moneyTextField.setPromptText("Dostępne fundusze");
         moneyTextField.setAlignment(Pos.CENTER);
-        moneyVBox.getChildren().addAll(moneyImageView,moneyTextField);
+        moneyVBox.getChildren().addAll(moneyImageView, moneyTextField);
         
         hbox.getChildren().addAll(manVBox, womanVBox,clockVBox,alcoholVBox,sobertyLevelVBox,moneyVBox);
 
@@ -134,9 +158,6 @@ public class Main extends Application {
         //bardzo nieprzyjemna metoda zmienienia marginu dla wszystkich Vboxów naraz.
         for (int i = 0; i <hbox.getChildren().size() ; i++) {
             hbox.setMargin(hbox.getChildren().get(i),new Insets(10,0,0,0)); //tutaj są wartości marginesów
-            ((VBox)hbox.getChildren().get(i)).setSpacing(10);               //odstęp pomiędzy elementami Vboxów
-
-
         }
         Scene scene = new Scene(hbox,1300, 600);
         window.setScene(scene);
