@@ -4,6 +4,7 @@ import javafx.application.Application;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 import javafx.collections.FXCollections;
+import javafx.event.EventHandler;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
@@ -11,11 +12,14 @@ import javafx.scene.control.ComboBox;
 import javafx.scene.control.TextField;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
+import javafx.scene.input.KeyCode;
+import javafx.scene.input.KeyEvent;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
+import java.util.ArrayList;
 
 
 public class Main extends Application {
@@ -99,18 +103,21 @@ public class Main extends Application {
         alcohols.setPromptText("Typ alkoholu");
         alcoholVBox.getChildren().addAll(alcoholImageView, alcohols);
         alcohols.valueProperty().addListener(new ChangeListener<String>() {
-            @Override public void changed(ObservableValue ov, String t, String t1) {
-                if(t1.equals("Piwo")) {
+            @Override
+            public void changed(ObservableValue ov, String t, String t1) {
+                if (t1.equals("Piwo")) {
                     alcoholImageView.setImage(new Image("graphics/napoje_piwo.png", true));
-                } else if(t1.equals("Wino")) {
+                } else if (t1.equals("Wino")) {
                     alcoholImageView.setImage(new Image("graphics/napoje_wino.png", true));
-                } else if(t1.equals("Drinki")){
+                } else if (t1.equals("Drinki")) {
                     alcoholImageView.setImage(new Image("graphics/napoje_drinki.png", true));
                 } else {
                     alcoholImageView.setImage(new Image("graphics/napoje_wodka.png", true));
                 }
 
-            };
+            }
+
+            ;
         });
         alcoholVBox.setAlignment(Pos.TOP_CENTER);
         alcohols.setPrefWidth(180);
@@ -130,16 +137,19 @@ public class Main extends Application {
         */
         final ComboBox sobertyLevel = new ComboBox(FXCollections.observableArrayList("Kulturalna prywatka", "Klasyczna domówka", "Mordownia"));
         sobertyLevel.valueProperty().addListener(new ChangeListener<String>() {
-            @Override public void changed(ObservableValue ov, String t, String t1) {
-                if(t1.equals("Kulturalna prywatka")) {
+            @Override
+            public void changed(ObservableValue ov, String t, String t1) {
+                if (t1.equals("Kulturalna prywatka")) {
                     sobertyLevelImageView.setImage(new Image("graphics/stopien_1_hipster.png", true));
-                } else if(t1.equals("Mordownia")) {
+                } else if (t1.equals("Mordownia")) {
                     sobertyLevelImageView.setImage(new Image("graphics/stopien_3_swinia.png", true));
                 } else {
                     sobertyLevelImageView.setImage(new Image("graphics/stopien_2_luzak.png", true));
                 }
 
-            };
+            }
+
+            ;
         });
         sobertyLevelVBox.getChildren().addAll(sobertyLevelImageView, sobertyLevel);
         sobertyLevel.setPromptText("Rodzaj imprezy");
@@ -157,6 +167,45 @@ public class Main extends Application {
         moneyTextField.setPromptText("Dostępne fundusze");
         moneyTextField.setAlignment(Pos.CENTER);
         moneyVBox.getChildren().addAll(moneyImageView, moneyTextField);
+
+        ArrayList<TextField> tfs = new ArrayList<>();
+        tfs.add(moneyTextField);
+        tfs.add(clockTextField);
+        tfs.add(womanTextField);
+        tfs.add(manTextField);
+
+        EventHandler keyEvent = new EventHandler<KeyEvent>() {
+            @Override
+            public void handle(KeyEvent ke) {
+                if (ke.getCode().equals(KeyCode.ENTER)) {
+
+                    if (((TextField) ke.getSource()).getCharacters().toString().equals("")) {
+                        ((TextField) ke.getSource()).requestFocus();
+                    } else {
+                        boolean anyEmpty = false;
+                        for(TextField t : tfs){
+                            if(t.getCharacters().toString().equals("")){
+                                anyEmpty = true;
+                                t.requestFocus();
+                            }
+                        }
+                        if(anyEmpty == false) {
+                            //uruchomieni aplikacji
+                            CountingModule cm = new CountingModule();
+                            cm.setNumberOfMen(Integer.parseInt(manTextField.getCharacters().toString()));
+                            cm.setNumberOfWomen(Integer.parseInt(womanTextField.getCharacters().toString()));
+                            cm.setTypeOfAlcochol(alcohols.getValue().toString());
+                            cm.setTypeOfParty(sobertyLevel.getValue().toString());
+                        }
+                    }
+                }
+            }
+        };
+
+        manTextField.setOnKeyPressed(keyEvent);
+        womanTextField.setOnKeyPressed(keyEvent);
+        clockTextField.setOnKeyPressed(keyEvent);
+        moneyTextField.setOnKeyPressed(keyEvent);
         
         hbox.getChildren().addAll(manVBox, womanVBox,clockVBox,alcoholVBox,sobertyLevelVBox,moneyVBox);
 
