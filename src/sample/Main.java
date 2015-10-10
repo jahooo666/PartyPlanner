@@ -101,7 +101,6 @@ public class Main extends Application {
         sobertyLevelTextField.setPromptText("Rodzaj imprezy");
         sobertyLevelTextField.setAlignment(Pos.CENTER);
         sobertyLevelVBox.getChildren().addAll(sobertyLevelImageView,sobertyLevelTextField);
-
         VBox moneyVBox = new VBox();
         Image moneyImage = new Image("graphics/5_kasa.png", true);
         ImageView moneyImageView = new ImageView();
@@ -120,6 +119,7 @@ public class Main extends Application {
         //bardzo nieprzyjemna metoda zmienienia marginu dla wszystkich Vboxów naraz.
         for (int i = 0; i <hbox.getChildren().size() ; i++) {
             hbox.setMargin(hbox.getChildren().get(i),new Insets(10,0,0,0)); //tutaj są wartości marginesów
+            ((VBox)hbox.getChildren().get(i)).setSpacing(10);
         }
         Scene scene = new Scene(hbox,1300, 600);
         window.setScene(scene);
