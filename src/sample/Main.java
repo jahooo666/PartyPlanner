@@ -4,13 +4,12 @@ import javafx.application.Application;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 import javafx.collections.FXCollections;
+import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
-import javafx.scene.control.ComboBox;
-import javafx.scene.control.TextField;
-import javafx.scene.control.Tooltip;
+import javafx.scene.control.*;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.KeyCode;
@@ -36,11 +35,16 @@ public class Main extends Application {
         VBox mainVbox = new VBox();
         HBox hbox1=new HBox();
         HBox hbox2=new HBox();
+        HBox hbox3 = new HBox();
         hbox1.setSpacing(10);
         hbox2.setSpacing(10);
+        hbox3.setSpacing(10);
+
 
         hbox1.setAlignment(Pos.CENTER);
         hbox2.setAlignment(Pos.CENTER);
+        hbox3.setAlignment(Pos.CENTER);
+
         VBox manVBox = new VBox();
         Image manImage = new Image("graphics/1_facet.png", true);
         ImageView manImageView = new ImageView();
@@ -277,9 +281,28 @@ public class Main extends Application {
         womanTextField.setOnKeyPressed(keyEvent);
         clockTextField.setOnKeyPressed(keyEvent);
         moneyTextField.setOnKeyPressed(keyEvent);
-        
+
+        ImageView buttonView = new ImageView(new Image(getClass().getResourceAsStream("icon_small.png")));
+        buttonView.fitHeightProperty();
+        Button button = new Button("Oblicz", buttonView);
+        button.setStyle("-fx-font: 22 arial; -fx-base: lightgreen;");
+        button.setPrefWidth(200);
+
+        Alert alert = new Alert(Alert.AlertType.INFORMATION);
+        alert.setTitle("Warning Dialog");
+        alert.setHeaderText("Look, a Warning Dialog");
+        alert.setContentText("Careful with the next step!");
+
+        button.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent event) {
+                alert.showAndWait();
+            }
+        });
+
         hbox1.getChildren().addAll(manVBox, womanVBox,clockVBox);
         hbox2.getChildren().addAll(alcoholVBox,sobertyLevelVBox,moneyVBox);
+        hbox3.getChildren().addAll(button);
 
 
         //bardzo nieprzyjemna metoda zmienienia marginu dla wszystkich Vboxów naraz.
@@ -287,11 +310,14 @@ public class Main extends Application {
             hbox1.setMargin(hbox1.getChildren().get(i),new Insets(10,0,0,0)); //tutaj są wartości marginesów
             hbox2.setMargin(hbox1.getChildren().get(i),new Insets(0,0,10,0)); //tutaj są wartości marginesów
 
+
             ((VBox)hbox1.getChildren().get(i)).setSpacing(10);
             ((VBox)hbox2.getChildren().get(i)).setSpacing(10);
         }
+        hbox3.setMargin(hbox3.getChildren().get(0),new Insets(30, 0, 0, 0));
 
-        mainVbox.getChildren().addAll(hbox1,hbox2);
+
+        mainVbox.getChildren().addAll(hbox1,hbox2, hbox3);
         Scene scene = new Scene(mainVbox,800, 600);
         window.setScene(scene);
         window.show();
