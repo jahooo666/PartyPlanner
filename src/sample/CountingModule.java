@@ -1,3 +1,6 @@
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * Created by Marcin on 2015-10-10.
  */
@@ -13,37 +16,6 @@ public class CountingModule {
     private double prifferedPrice;
 
 
-    public void setTime(double time){
-        this.time = time;
-    }
-
-    public double getTime(){
-        return time;
-    }
-
-    public void setNumberOfWomen(int numberOfWomen){
-        this.numberOfWomen = numberOfWomen;
-    }
-
-    public double getNumberOfWoman(){
-        return numberOfWomen;
-    }
-
-    public void setNumberOfMan(int numberOfMan){
-        this.numberOfMen = numberOfMan;
-    }
-
-    public double getNumberOfMan(){
-        return numberOfMen;
-    }
-
-    public void setPrifferedPrice(double prifferedPrice){
-        this.prifferedPrice = prifferedPrice;
-    }
-
-    public double getPrifferedPrice(){
-        return prifferedPrice;
-    }
 
     private void countGrams(){
         double promilFactor = -(double)time * (-0.12) + promile + 0.12;
@@ -103,29 +75,29 @@ public class CountingModule {
         if(price()>10*prifferedPrice)
             return "Brakuje Ci kupe kasy";
         else if(price()>5*prifferedPrice)
-            return "Nie bÄ…dÅº Å¼yd dorzuÄ‡ trochÄ™";
+            return "Nie b¹dŸ ¿yd dorzuæ trochê";
         else if(price()>2*prifferedPrice)
-            return "MaÅ‚o kapusty!";
+            return "Ma³o kapusty!";
         else if(price()>prifferedPrice)
-            return "BrakÅ‚o trochÄ™ :/";
+            return "Brak³o trochê :/";
         else if(10*price()<prifferedPrice)
-            return "Szykuje siÄ™ gruba impreza, wziÄ…Å‚bym 10 razy tyle :P";
+            return "Szykuje siê gruba impreza, wzi¹³bym 10 razy tyle :P";
         else if(5*price()<prifferedPrice)
-            return "WeÅº wiÄ™cej, nie zmarnuje siÄ™ :D";
+            return "WeŸ wiêcej, nie zmarnuje siê :D";
         else if(2*price()<prifferedPrice)
-            return "MoÅ¼na szaleÄ‡ ;)";
+            return "Mo¿na szaleæ ;)";
         else if(price()==prifferedPrice)
             return "W sam raz :D";
         else
-            return "Jeszcze pare moÅ¼na wziÄ…Ä‡";
+            return "Jeszcze pare mo¿na wzi¹æ";
     }
 
 
 
     public static void main(String[] args) {
         CountingModule countingModule = new CountingModule();
-        countingModule.numberOfMen = 4;
-        countingModule.numberOfWomen =12;
+        countingModule.numberOfMen = 2;
+        countingModule.numberOfWomen = 2;
         countingModule.time = 3;
         countingModule.chooseTypeOfParty(2);
         countingModule.chooseAlco(1);
@@ -137,6 +109,7 @@ public class CountingModule {
 
         countingModule.prifferedPrice = 1000.0;
         System.out.println(countingModule.comparePrices());
-        
+
+
     }
 }

@@ -10,6 +10,7 @@ import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.TextField;
+import javafx.scene.control.TextFormatter;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.KeyCode;
@@ -64,10 +65,10 @@ public class Main extends Application {
             public void changed(ObservableValue ov, String t, String t1) {
                 try {
                     System.out.println(Integer.parseInt(t1));
-                    manTextField.setStyle(manTextField.getStyle().toString().concat("\n").concat("-fx-background-color: white;"));
+                    manTextField.setStyle(manTextField.getStyle().concat("\n" + "-fx-text-inner-color: black;"));
                 } catch(Exception e) {
                     System.out.println("Nieprawidłowa wartość!");
-                    manTextField.setStyle("-fx-background-color: red;");
+                    manTextField.setStyle(manTextField.getStyle().concat("\n" + "-fx-text-inner-color: red;"));
                 }
             }
         });
@@ -84,6 +85,18 @@ public class Main extends Application {
         womanTextField.setPromptText("Liczba kobiet");
         womanTextField.setAlignment(Pos.CENTER);
         womanVBox.getChildren().addAll(womanImageView,womanTextField);
+        womanTextField.textProperty().addListener(new ChangeListener<String>() {
+            @Override
+            public void changed(ObservableValue ov, String t, String t1) {
+                try {
+                    System.out.println(Integer.parseInt(t1));
+                    womanTextField.setStyle(womanTextField.getStyle().concat("\n" + "-fx-text-inner-color: black;"));
+                } catch(Exception e) {
+                    System.out.println("Nieprawidłowa wartość!");
+                    womanTextField.setStyle(womanTextField.getStyle().concat("\n" + "-fx-text-inner-color: red;"));
+                }
+            }
+        });
 
 
         VBox clockVBox = new VBox();
@@ -97,6 +110,18 @@ public class Main extends Application {
         clockTextField.setPromptText("Czas trwania");
         clockTextField.setAlignment(Pos.CENTER);
         clockVBox.getChildren().addAll(clockImageView,clockTextField);
+        clockTextField.textProperty().addListener(new ChangeListener<String>() {
+            @Override
+            public void changed(ObservableValue ov, String t, String t1) {
+                try {
+                    System.out.println(Integer.parseInt(t1));
+                    clockTextField.setStyle(clockTextField.getStyle().concat("\n" + "-fx-text-inner-color: black;"));
+                } catch(Exception e) {
+                    System.out.println("Nieprawidłowa wartość!");
+                    clockTextField.setStyle(clockTextField.getStyle().concat("\n" + "-fx-text-inner-color: red;"));
+                }
+            }
+        });
 
         VBox alcoholVBox = new VBox();
         Image alcoholImage = new Image("graphics/4_drinki.png", true);
@@ -179,6 +204,18 @@ public class Main extends Application {
         moneyTextField.setPromptText("Dostępne fundusze");
         moneyTextField.setAlignment(Pos.CENTER);
         moneyVBox.getChildren().addAll(moneyImageView, moneyTextField);
+        moneyTextField.textProperty().addListener(new ChangeListener<String>() {
+            @Override
+            public void changed(ObservableValue ov, String t, String t1) {
+                try {
+                    System.out.println(Integer.parseInt(t1));
+                    moneyTextField.setStyle(moneyTextField.getStyle().concat("\n" + "-fx-text-inner-color: black;"));
+                } catch(Exception e) {
+                    System.out.println("Nieprawidłowa wartość!");
+                    moneyTextField.setStyle(moneyTextField.getStyle().concat("\n" + "-fx-text-inner-color: red;"));
+                }
+            }
+        });
 
         ArrayList<TextField> tfs = new ArrayList<>();
         tfs.add(moneyTextField);
