@@ -10,7 +10,7 @@ import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.TextField;
-import javafx.scene.control.TextFormatter;
+import javafx.scene.control.Tooltip;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.KeyCode;
@@ -48,6 +48,9 @@ public class Main extends Application {
         TextField manTextField = new TextField();
         manTextField.setPromptText("Liczba mężczyzn");
         manTextField.setAlignment(Pos.CENTER);
+        final Tooltip tooltip = new Tooltip();
+        tooltip.setText("Podaj liczbę mężczyzn");
+        manTextField.setTooltip(tooltip);
 
 
         /*        ObservableList<String> options =
@@ -79,24 +82,27 @@ public class Main extends Application {
         ImageView womanImageView = new ImageView();
         womanImageView.setImage(womanImage);
         womanImageView.setSmooth(true);
-        womanImageView.setFitHeight( IconWidthHeight);
-        womanImageView.setFitWidth( IconWidthHeight);
+        womanImageView.setFitHeight(IconWidthHeight);
+        womanImageView.setFitWidth(IconWidthHeight);
         TextField womanTextField = new TextField();
         womanTextField.setPromptText("Liczba kobiet");
         womanTextField.setAlignment(Pos.CENTER);
-        womanVBox.getChildren().addAll(womanImageView,womanTextField);
+        womanVBox.getChildren().addAll(womanImageView, womanTextField);
         womanTextField.textProperty().addListener(new ChangeListener<String>() {
             @Override
             public void changed(ObservableValue ov, String t, String t1) {
                 try {
                     System.out.println(Integer.parseInt(t1));
                     womanTextField.setStyle(womanTextField.getStyle().concat("\n" + "-fx-text-inner-color: black;"));
-                } catch(Exception e) {
+                } catch (Exception e) {
                     System.out.println("Nieprawidłowa wartość!");
                     womanTextField.setStyle(womanTextField.getStyle().concat("\n" + "-fx-text-inner-color: red;"));
                 }
             }
         });
+        final Tooltip tooltip2 = new Tooltip();
+        tooltip2.setText("Podaj liczbę kobiet");
+        womanTextField.setTooltip(tooltip2);
 
 
         VBox clockVBox = new VBox();
@@ -104,24 +110,27 @@ public class Main extends Application {
         ImageView clockImageView = new ImageView();
         clockImageView.setImage(clockImage);
         clockImageView.setSmooth(true);
-        clockImageView.setFitHeight( IconWidthHeight);
-        clockImageView.setFitWidth( IconWidthHeight);
+        clockImageView.setFitHeight(IconWidthHeight);
+        clockImageView.setFitWidth(IconWidthHeight);
         TextField clockTextField = new TextField();
         clockTextField.setPromptText("Czas trwania");
         clockTextField.setAlignment(Pos.CENTER);
-        clockVBox.getChildren().addAll(clockImageView,clockTextField);
+        clockVBox.getChildren().addAll(clockImageView, clockTextField);
         clockTextField.textProperty().addListener(new ChangeListener<String>() {
             @Override
             public void changed(ObservableValue ov, String t, String t1) {
                 try {
                     System.out.println(Integer.parseInt(t1));
                     clockTextField.setStyle(clockTextField.getStyle().concat("\n" + "-fx-text-inner-color: black;"));
-                } catch(Exception e) {
+                } catch (Exception e) {
                     System.out.println("Nieprawidłowa wartość!");
                     clockTextField.setStyle(clockTextField.getStyle().concat("\n" + "-fx-text-inner-color: red;"));
                 }
             }
         });
+        final Tooltip tooltip3 = new Tooltip();
+        tooltip3.setText("Podaj dugść czasu imprezy");
+        clockTextField.setTooltip(tooltip3);
 
         VBox alcoholVBox = new VBox();
         Image alcoholImage = new Image("graphics/4_drinki.png", true);
@@ -210,12 +219,15 @@ public class Main extends Application {
                 try {
                     System.out.println(Integer.parseInt(t1));
                     moneyTextField.setStyle(moneyTextField.getStyle().concat("\n" + "-fx-text-inner-color: black;"));
-                } catch(Exception e) {
+                } catch (Exception e) {
                     System.out.println("Nieprawidłowa wartość!");
                     moneyTextField.setStyle(moneyTextField.getStyle().concat("\n" + "-fx-text-inner-color: red;"));
                 }
             }
         });
+        final Tooltip tooltip4 = new Tooltip();
+        tooltip4.setText("Ile masz dostępnych funduszy");
+        moneyTextField.setTooltip(tooltip4);
 
         ArrayList<TextField> tfs = new ArrayList<>();
         tfs.add(moneyTextField);
