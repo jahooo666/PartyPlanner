@@ -55,6 +55,7 @@ public class Main extends Application {
         TextField manTextField = new TextField();
         manTextField.setPromptText("Liczba mężczyzn");
         manTextField.setAlignment(Pos.CENTER);
+        manTextField.setPrefWidth(180);
         final Tooltip tooltip = new Tooltip();
         tooltip.setText("Podaj liczbę mężczyzn");
         manTextField.setTooltip(tooltip);
@@ -94,6 +95,7 @@ public class Main extends Application {
         TextField womanTextField = new TextField();
         womanTextField.setPromptText("Liczba kobiet");
         womanTextField.setAlignment(Pos.CENTER);
+        womanTextField.setPrefWidth(180);
         womanVBox.getChildren().addAll(womanImageView, womanTextField);
         womanTextField.textProperty().addListener(new ChangeListener<String>() {
             @Override
@@ -120,6 +122,7 @@ public class Main extends Application {
         clockImageView.setFitHeight(IconWidthHeight);
         clockImageView.setFitWidth(IconWidthHeight);
         TextField clockTextField = new TextField();
+        clockTextField.setPrefWidth(180);
         clockTextField.setPromptText("Czas trwania");
         clockTextField.setAlignment(Pos.CENTER);
         clockVBox.getChildren().addAll(clockImageView, clockTextField);
@@ -219,6 +222,8 @@ public class Main extends Application {
         TextField moneyTextField = new TextField();
         moneyTextField.setPromptText("Dostępne fundusze");
         moneyTextField.setAlignment(Pos.CENTER);
+        moneyTextField.setPrefWidth(180);
+
         moneyVBox.getChildren().addAll(moneyImageView, moneyTextField);
         moneyTextField.textProperty().addListener(new ChangeListener<String>() {
             @Override
@@ -285,14 +290,17 @@ public class Main extends Application {
         ImageView buttonView = new ImageView(new Image(getClass().getResourceAsStream("icon_small.png")));
         buttonView.fitHeightProperty();
         Button button = new Button("Oblicz", buttonView);
-        button.setStyle("-fx-font: 22 arial; -fx-base: lightgreen;");
+        button.setStyle("-fx-font: 22 arial; -fx-base: lightgreen;"); //
         button.setPrefWidth(200);
 
         Alert alert = new Alert(Alert.AlertType.INFORMATION);
-        alert.setTitle("Warning Dialog");
+        alert.setGraphic(new ImageView(new Image(getClass().getResourceAsStream("icon_small.png"))));
+
+        alert.setTitle("Wyniki");
         alert.setHeaderText("Look, a Warning Dialog");
         alert.setContentText("Careful with the next step!");
-
+        Stage alert1 = (Stage) alert.getDialogPane().getScene().getWindow();
+        alert1.getIcons().add(new Image(Main.class.getResourceAsStream("icon.png")));
         button.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
@@ -307,7 +315,7 @@ public class Main extends Application {
 
         //bardzo nieprzyjemna metoda zmienienia marginu dla wszystkich Vboxów naraz.
         for (int i = 0; i <hbox1.getChildren().size() ; i++) {
-            hbox1.setMargin(hbox1.getChildren().get(i),new Insets(10,0,0,0)); //tutaj są wartości marginesów
+            hbox1.setMargin(hbox1.getChildren().get(i),new Insets(200,0,0,0)); //tutaj są wartości marginesó
             hbox2.setMargin(hbox1.getChildren().get(i),new Insets(0,0,10,0)); //tutaj są wartości marginesów
 
 
@@ -315,10 +323,10 @@ public class Main extends Application {
             ((VBox)hbox2.getChildren().get(i)).setSpacing(10);
         }
         hbox3.setMargin(hbox3.getChildren().get(0),new Insets(30, 0, 0, 0));
-
-
-        mainVbox.getChildren().addAll(hbox1,hbox2, hbox3);
-        Scene scene = new Scene(mainVbox,800, 600);
+        HBox hbox0 = new HBox();
+        hbox0.setMinHeight(20);
+        mainVbox.getChildren().addAll(hbox0,hbox1,hbox2, hbox3);
+        Scene scene = new Scene(mainVbox, 700, 600);
         window.setScene(scene);
         window.show();
     }
