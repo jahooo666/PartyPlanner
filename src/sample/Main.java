@@ -14,9 +14,8 @@ import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.KeyCode;
 import javafx.scene.input.KeyEvent;
-import javafx.scene.layout.BorderPane;
-import javafx.scene.layout.HBox;
-import javafx.scene.layout.VBox;
+import javafx.scene.layout.*;
+import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 
 import java.util.ArrayList;
@@ -59,6 +58,18 @@ public class Main extends Application {
         */
         manVBox.getChildren().addAll(manImageView,manTextField);
         manVBox.setAlignment(Pos.TOP_CENTER);
+        manTextField.textProperty().addListener(new ChangeListener<String>() {
+            @Override
+            public void changed(ObservableValue ov, String t, String t1) {
+                try {
+                    System.out.println(Integer.parseInt(t1));
+                    manTextField.setStyle(manTextField.getStyle().toString().concat("\n").concat("-fx-background-color: white;"));
+                } catch(Exception e) {
+                    System.out.println("Nieprawidłowa wartość!");
+                    manTextField.setStyle("-fx-background-color: red;");
+                }
+            }
+        });
 
 
         VBox womanVBox = new VBox();
@@ -191,11 +202,11 @@ public class Main extends Application {
                         }
                         if(anyEmpty == false) {
                             //uruchomieni aplikacji
-                            CountingModule cm = new CountingModule();
-                            cm.setNumberOfMen(Integer.parseInt(manTextField.getCharacters().toString()));
-                            cm.setNumberOfWomen(Integer.parseInt(womanTextField.getCharacters().toString()));
-                            cm.setTypeOfAlcochol(alcohols.getValue().toString());
-                            cm.setTypeOfParty(sobertyLevel.getValue().toString());
+                            //CountingModule cm = new CountingModule();
+                            //cm.setNumberOfMen(Integer.parseInt(manTextField.getCharacters().toString()));
+                            //cm.setNumberOfWomen(Integer.parseInt(womanTextField.getCharacters().toString()));
+                            //cm.setTypeOfAlcochol(alcohols.getValue().toString());
+                            //cm.setTypeOfParty(sobertyLevel.getValue().toString());
                         }
                     }
                 }
