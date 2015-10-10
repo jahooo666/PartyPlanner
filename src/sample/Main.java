@@ -159,7 +159,7 @@ public class Main extends Application {
         alcohols.setPrefWidth(180);
 
         VBox sobertyLevelVBox = new VBox();
-        Image sobertyLevelImage = new Image("graphics/stopien_1_hipster.png", true);
+        Image sobertyLevelImage = new Image("graphics/stopnie.png", true);
         ImageView sobertyLevelImageView = new ImageView();
         sobertyLevelImageView.setImage(sobertyLevelImage);
         sobertyLevelImageView.setSmooth(true);
