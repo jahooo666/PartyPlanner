@@ -39,7 +39,7 @@ public class CountingModule {
         return liters;
     }
     public double getPrice() {
-        return price;
+        return price();
     }
 
 
