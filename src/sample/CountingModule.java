@@ -67,16 +67,16 @@ public class CountingModule {
     private double chooseAlco(String typeOfAlcochol) {
         switch (typeOfAlcochol){
             case "Piwo":
-                price = 5;
+                price = 6;
                 return 0.05;
             case "Wino":
                 price = 30;
                 return 0.12;
             case "Drinki":
-                price = 40;
+                price = 60;
                 return 0.5;
             case "Wódka":
-                price = 30;
+                price = 45;
                 return 0.38;
             default:
                 return 0;

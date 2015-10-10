@@ -18,6 +18,9 @@ import javafx.scene.layout.*;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 
+
+import javax.swing.*;
+import java.text.DecimalFormat;
 import java.util.ArrayList;
 
 
@@ -247,6 +250,10 @@ public class Main extends Application {
         tfs.add(womanTextField);
         tfs.add(manTextField);
 
+        Alert alert = new Alert(Alert.AlertType.INFORMATION);
+        Stage alert1 = (Stage) alert.getDialogPane().getScene().getWindow();
+        alert1.getIcons().add(new Image(Main.class.getResourceAsStream("icon.png")));
+
         EventHandler keyEvent = new EventHandler<KeyEvent>() {
             @Override
             public void handle(KeyEvent ke) {
@@ -274,13 +281,21 @@ public class Main extends Application {
                             cm.countLiters();
                             cm.price();
                             cm.comparePrices();
-                            System.out.println(cm.getLiters());
-                            System.out.println(cm.getPrice());
+                            alert.setGraphic(new ImageView(new Image(getClass().getResourceAsStream("icon_small.png"))));
+                            alert.setTitle("Uwaga!");
+                            alert.setHeaderText("Oto twój przepis na impreze:");
+                            alert.setContentText(
+                                    alcohols.getValue().toString() + " liczba litrów " + " : " + new DecimalFormat("#.##").format(cm.getLiters()) +
+                                            "\n Szacowana cena: " + new DecimalFormat("#.##").format(cm.getPrice()) +
+                                            "\n" + cm.comparePrices()
+                            );
+                            alert.showAndWait();
                         }
                     }
                 }
             }
         };
+
 
         manTextField.setOnKeyPressed(keyEvent);
         womanTextField.setOnKeyPressed(keyEvent);
@@ -293,20 +308,44 @@ public class Main extends Application {
         button.setStyle("-fx-font: 22 arial; -fx-base: white;"); //
         button.setPrefWidth(200);
 
-        Alert alert = new Alert(Alert.AlertType.INFORMATION);
-        alert.setGraphic(new ImageView(new Image(getClass().getResourceAsStream("icon_small.png"))));
 
-        alert.setTitle("Wyniki");
-        alert.setHeaderText("Look, a Warning Dialog");
-        alert.setContentText("Careful with the next step!");
-        Stage alert1 = (Stage) alert.getDialogPane().getScene().getWindow();
-        alert1.getIcons().add(new Image(Main.class.getResourceAsStream("icon.png")));
-        button.setOnAction(new EventHandler<ActionEvent>() {
-            @Override
-            public void handle(ActionEvent event) {
-                alert.showAndWait();
-            }
-        });
+        button.setOnAction(event -> {
+                    boolean anyEmpty = false;
+                    for (TextField t : tfs) {
+                        if (t.getCharacters().toString().equals("")) {
+                            anyEmpty = true;
+                            t.requestFocus();
+                        }
+                    }
+                    if (anyEmpty == false) {
+                        //uruchomieni aplikacji
+                        CountingModule cm = new CountingModule();
+                        cm.setTime(Integer.parseInt(clockTextField.getText()));
+                        cm.setPrefferedPrice(Integer.parseInt(moneyTextField.getText()));
+                        cm.setNumberOfWomen(Integer.parseInt(womanTextField.getText()));
+                        cm.setNumberOfMen(Integer.parseInt(manTextField.getText()));
+                        cm.setTypeOfParty(sobertyLevel.getValue().toString());
+                        cm.setTypeOfAlcochol(alcohols.getValue().toString());
+                        cm.countLiters();
+                        cm.price();
+                        cm.comparePrices();
+                        alert.setGraphic(new ImageView(new Image(getClass().getResourceAsStream("icon_small.png"))));
+                        alert.setTitle("Uwaga!");
+                        alert.setHeaderText("Oto twój przepis na impreze:");
+                        alert.setContentText(
+                                alcohols.getValue().toString() + " liczba litrów " + " : " + new DecimalFormat("#.##").format(cm.getLiters()) +
+                                        "\n Szacowana cena: " + new DecimalFormat("#.##").format(cm.getPrice())+
+                                        "\n" + cm.comparePrices()
+                        );
+                        alert.showAndWait();
+                    }
+                }
+        );
+
+
+
+
+
 
         hbox1.getChildren().addAll(manVBox, womanVBox,clockVBox);
         hbox2.getChildren().addAll(alcoholVBox,sobertyLevelVBox,moneyVBox);
