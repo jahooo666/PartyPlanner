@@ -124,7 +124,6 @@ public class Main extends Application {
         Scene scene = new Scene(hbox,1300, 600);
         window.setScene(scene);
         window.show();
-
     }
 
 
