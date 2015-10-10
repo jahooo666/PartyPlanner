@@ -1,17 +1,22 @@
 package sample;
 
 import javafx.application.Application;
+import javafx.event.EventHandler;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
+import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
+import javafx.scene.input.KeyCode;
+import javafx.scene.input.KeyEvent;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
+import java.util.ArrayList;
 
 
 public class Main extends Application {
@@ -35,11 +40,13 @@ public class Main extends Application {
         ImageView manImageView = new ImageView();
         manImageView.setImage(manImage);
         manImageView.setSmooth(true);
-        manImageView.setFitHeight( IconWidthHeight);
-        manImageView.setFitWidth( IconWidthHeight);
+        manImageView.setFitHeight(IconWidthHeight);
+        manImageView.setFitWidth(IconWidthHeight);
         TextField manTextField = new TextField();
         manTextField.setPromptText("Liczba mężczyzn");
         manTextField.setAlignment(Pos.CENTER);
+
+
 
         /*        ObservableList<String> options =
                 FXCollections.observableArrayList(
@@ -106,12 +113,43 @@ public class Main extends Application {
         ImageView moneyImageView = new ImageView();
         moneyImageView.setImage(moneyImage);
         moneyImageView.setSmooth(true);
-        moneyImageView.setFitHeight( IconWidthHeight);
+        moneyImageView.setFitHeight(IconWidthHeight);
         moneyImageView.setFitWidth(IconWidthHeight);
         TextField moneyTextField = new TextField();
         moneyTextField.setPromptText("Dostępne fundusze");
         moneyTextField.setAlignment(Pos.CENTER);
-        moneyVBox.getChildren().addAll(moneyImageView,moneyTextField);
+        moneyVBox.getChildren().addAll(moneyImageView, moneyTextField);
+
+        ArrayList<TextField> tfs = new ArrayList<>();
+        tfs.add(moneyTextField);
+        tfs.add(clockTextField);
+        tfs.add(womanTextField);
+        tfs.add(manTextField);
+
+        EventHandler keyEvent = new EventHandler<KeyEvent>() {
+            @Override
+            public void handle(KeyEvent ke) {
+                if (ke.getCode().equals(KeyCode.ENTER)) {
+
+                    if (((TextField) ke.getSource()).getCharacters().toString().equals("")) {
+                        ((TextField) ke.getSource()).requestFocus();
+                    } else {
+                        for(TextField t : tfs){
+                            if(t.getCharacters().toString().equals("")){
+                                t.requestFocus();
+                            }
+                        }
+                    }
+                }
+            }
+        };
+
+        manTextField.setOnKeyPressed(keyEvent);
+        womanTextField.setOnKeyPressed(keyEvent);
+        clockTextField.setOnKeyPressed(keyEvent);
+        moneyTextField.setOnKeyPressed(keyEvent);
+
+
         
         hbox.getChildren().addAll(manVBox, womanVBox,clockVBox,alcoholVBox,sobertyLevelVBox,moneyVBox);
 
