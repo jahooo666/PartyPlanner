@@ -1,0 +1,1646 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 744.09448819 1052.3622047"
+   id="svg5224"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="napoje.svg">
+  <defs
+     id="defs5226">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1026">
+      <path
+         d="m 0,799.92 799.92,0 L 799.92,0 0,0 0,799.92 Z"
+         id="path1028"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2560">
+      <path
+         d="m 0,799.92 799.92,0 L 799.92,0 0,0 0,799.92 Z"
+         id="path2562"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="397.85433"
+     inkscape:cy="370.90866"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1600"
+     inkscape:window-height="837"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5229">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <circle
+       style="opacity:1;fill:#c7f876;fill-opacity:1;stroke:none"
+       id="path6606"
+       cx="-42.857143"
+       cy="820.93359"
+       r="141.42857"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_drinki.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997" />
+    <circle
+       style="opacity:1;fill:#ffca62;fill-opacity:1;stroke:none"
+       id="path6606-6"
+       cx="257.14288"
+       cy="822.36224"
+       r="141.42857"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_piwo.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997" />
+    <circle
+       style="opacity:1;fill:#d386bc;fill-opacity:1;stroke:none"
+       id="path6606-4"
+       cx="555.71429"
+       cy="819.50513"
+       r="141.42857"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_wino.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997" />
+    <circle
+       style="opacity:1;fill:#ac939d;fill-opacity:1;stroke:none"
+       id="path6606-8"
+       cx="865.71429"
+       cy="825.21936"
+       r="141.42857"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_wodka.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997" />
+    <path
+       d="m 310.37397,917.66608 -101.13394,0 0,-136.08488 101.13394,0 0,136.08488 z"
+       style="fill:#daf7f2;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path194"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_piwo.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997" />
+    <path
+       d="m 259.31918,917.66608 -50.07915,0 0,-136.08488 50.07915,0 0,136.08488 z"
+       style="fill:#c8e9e3;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path196"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_piwo.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997" />
+    <path
+       d="m 306.90373,917.66608 -94.55514,0 0,-136.08488 94.55514,0 0,136.08488 z"
+       style="fill:#ffbf00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path198"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_piwo.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997" />
+    <path
+       d="m 306.90373,784.55391 -94.55514,0 0,-2.97448 94.55514,0 0,2.97448 z"
+       style="fill:#f3a800;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path200"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_piwo.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997" />
+    <path
+       d="m 310.37397,927.33225 -101.13394,0 0,-9.66793 101.13394,0 0,9.66793 z"
+       style="fill:#daf7f2;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path202"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_piwo.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997" />
+    <g
+       id="g212"
+       transform="matrix(1.7642202,0,0,-1.7642202,310.37432,734.20765)"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_piwo.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <path
+         d="m 0,0 c 0,4.514 -3.233,8.173 -7.222,8.173 -2.313,0 -4.348,-1.252 -5.67,-3.165 -1.984,1.965 -4.576,3.165 -7.42,3.165 -1.637,0 -3.189,-0.403 -4.593,-1.113 -2.022,3.441 -5.475,5.71 -9.4,5.71 -5.74,0 -10.469,-4.854 -11.181,-11.131 -1.255,1.191 -2.851,1.937 -4.617,1.937 -3.989,0 -7.503,-3.995 -7.503,-8.509 0,-6.799 3.514,-7.837 7.503,-7.837 3.064,0 4.939,0.627 5.988,3.674 2.054,-3.157 6.08,-3.674 9.81,-3.674 1.637,0 3.189,0.403 4.593,1.112 2.021,-3.44 5.475,-5.71 9.4,-5.71 4.028,0 7.542,2.402 9.535,5.997 1.122,-1.437 2.784,-2.371 4.665,-2.371 3.376,0 6.112,2.942 6.112,6.571 0,1.227 -0.333,2.362 -0.877,3.344 C -0.336,-2.68 0,-1.391 0,0"
+         style="fill:#fffeff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path214"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g216"
+       transform="matrix(1.7642202,0,0,-1.7642202,257.75485,749.5703)"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_piwo.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <path
+         d="m 0,0 c -0.934,0.357 -1.928,-0.339 -1.928,-1.339 l 0,-2.387 c 0.708,0.188 1.391,0.448 2.042,0.776 0.238,-0.404 0.497,-0.792 0.773,-1.162 l 0,3.789 C 0.571,-0.213 0.272,-0.104 0,0"
+         style="fill:#f5f2f4;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path218"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g220"
+       transform="matrix(1.7642202,0,0,-1.7642202,259.31936,748.11607)"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_piwo.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <path
+         d="m 0,0 0,19.117 c -1.596,0.979 -3.423,1.537 -5.366,1.537 -5.74,0 -10.469,-4.854 -11.181,-11.131 -1.255,1.191 -2.851,1.936 -4.617,1.936 -3.989,0 -7.503,-3.995 -7.503,-8.508 0,-6.799 3.514,-7.838 7.503,-7.838 2.534,0 4.252,0.434 5.366,2.305 -0.802,-0.086 -1.348,-0.087 -1.348,-0.087 C -22.801,-2.424 -26.138,0 -26.138,0 l 20.65,0 c -2.076,0 -4.174,-0.378 -5.996,-1.375 -0.867,-0.474 -1.857,-0.773 -2.765,-0.964 2.201,-2.156 5.651,-2.548 8.883,-2.548 0.008,0 0.015,10e-4 0.022,10e-4 L -5.344,0 0,0 Z"
+         style="fill:#f5f2f4;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path222"
+         inkscape:connector-curvature="0" />
+    </g>
+    <path
+       d="m 310.37397,781.57943 -101.13394,0 0,-33.46372 101.13394,0 0,33.46372 z"
+       style="fill:#daf7f2;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path224"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_piwo.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997" />
+    <path
+       d="m 259.31918,784.55391 -46.97059,0 0,133.11041 46.97059,0 0,-133.11041 z"
+       style="fill:#fdb200;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path226"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_piwo.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997" />
+    <path
+       d="m 259.31918,781.57943 -46.97059,0 0,2.97448 46.97059,0 0,-2.97448 z"
+       style="fill:#ea9b00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path228"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_piwo.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997" />
+    <path
+       d="m 209.24003,927.33225 50.07915,0 0,-9.66793 -50.07915,0 0,9.66793 z"
+       style="fill:#c8e9e3;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path230"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_piwo.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997" />
+    <path
+       d="m 259.31918,748.11571 -50.07915,0 0,33.46372 50.07915,0 0,-33.46372 z"
+       style="fill:#c8e9e3;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path232"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_piwo.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997" />
+    <g
+       id="g234"
+       transform="matrix(1.7642202,0,0,-1.7642202,249.8919,748.11607)"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_piwo.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <path
+         d="m 0,0 0,-32.456 c 0,-0.941 0.763,-1.704 1.704,-1.704 0.94,0 1.703,0.763 1.703,1.704 0,0.635 -0.363,1.167 -0.878,1.46 l 0,28.833 c 0,0.999 0.994,1.696 1.928,1.339 0.594,-0.228 1.301,-0.477 2.087,-0.714 2.622,-0.79 5.462,-0.747 8.025,0.217 0.093,0.035 0.187,0.07 0.28,0.107 1.259,0.502 2.724,0.264 3.645,-0.731 0.513,-0.554 1.191,-1.151 2.065,-1.684 3.015,-1.837 6.977,-1.609 9.71,0.626 0.92,0.752 1.706,1.735 2.047,3.003 L 0,0 Z"
+         style="fill:#fffeff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path236"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g238"
+       transform="matrix(1.7642202,0,0,-1.7642202,229.07005,752.82564)"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_piwo.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <path
+         d="m 0,0 c 0,0 3.296,0 5.662,1.295 1.822,0.996 3.92,1.374 5.997,1.374 l -20.651,0 c 0,0 3.337,-2.423 8.992,-2.669"
+         style="fill:#fffeff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path240"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g242"
+       transform="matrix(1.7642202,0,0,-1.7642202,249.89173,805.37612)"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_piwo.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <path
+         d="m 0,0 c 0,-0.941 0.763,-1.704 1.704,-1.704 0.94,0 1.703,0.763 1.703,1.704 0,0.635 -0.363,1.167 -0.878,1.46 l 0,26.446 C 1.716,27.691 0.871,27.572 0,27.57 L 0,0 Z"
+         style="fill:#f5f2f4;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path244"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g246"
+       transform="matrix(1.7642202,0,0,-1.7642202,257.75485,749.5703)"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_piwo.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <path
+         d="m 0,0 c 0.272,-0.104 0.571,-0.213 0.887,-0.323 l 0,1.147 -5.344,0 0,-4.886 c 0.871,0.002 1.716,0.121 2.529,0.336 l 0,2.387 c 0,1 0.994,1.696 1.928,1.339"
+         style="fill:#f5f2f4;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path248"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g250"
+       transform="matrix(1.7642202,0,0,-1.7642202,232.5459,750.255)"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_piwo.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <path
+         d="m 0,0 c -0.182,-0.527 -0.39,-0.978 -0.623,-1.369 0.452,0.048 0.983,0.124 1.549,0.243 C 0.587,-0.794 0.275,-0.422 0,0"
+         style="fill:#f5f2f4;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path252"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g254"
+       transform="matrix(1.7642202,0,0,-1.7642202,249.63821,748.11607)"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_piwo.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <path
+         d="m 0,0 -20.651,0 c 0,0 3.337,-2.424 8.992,-2.669 0,0 0.547,10e-4 1.348,0.087 0.233,0.392 0.441,0.842 0.623,1.37 0.274,-0.422 0.586,-0.794 0.926,-1.127 0.908,0.191 1.899,0.49 2.766,0.964 C -4.174,-0.378 -2.077,0 0,0"
+         style="fill:#f5f2f4;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path256"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g258"
+       transform="matrix(1.7642202,0,0,-1.7642202,209.23949,812.81267)"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_piwo.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <path
+         d="m 0,0 c 0,0 -10.838,6.468 -15.957,-3.043 -0.939,-1.746 -1.447,-3.687 -1.622,-5.662 -0.573,-6.492 -0.449,-24.04 17.579,-24.384 l 0,-7.165 c 0,0 -22.576,1.66 -24.415,24.574 -0.515,6.423 1.02,12.888 4.391,18.379 0.786,1.28 1.669,2.51 2.632,3.532 0.672,0.712 0.953,1.706 0.783,2.67 l -0.055,0.312 c -0.086,0.486 0.363,0.806 0.739,0.599 l 2.83,-1.558 C -12.571,7.965 -11.98,7.821 -11.383,7.841 -9.114,7.916 -3.047,7.891 0,5.69 L 0,0 Z"
+         style="fill:#daf7f2;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path260"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g262"
+       transform="matrix(1.7642202,0,0,-1.7642202,209.23949,812.81267)"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_piwo.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <path
+         d="m 0,0 c 0,0 -10.838,6.468 -15.957,-3.043 -0.939,-1.746 -1.447,-3.687 -1.622,-5.662 -0.573,-6.492 -0.449,-24.04 17.579,-24.384 l 0,-7.165 c 0,0 -22.576,1.66 -24.415,24.574 -0.515,6.423 1.02,12.888 4.391,18.379 0.786,1.28 1.669,2.51 2.632,3.532 0.672,0.712 0.953,1.706 0.783,2.67 l -0.055,0.312 c -0.086,0.486 0.363,0.806 0.739,0.599 l 2.83,-1.558 C -12.571,7.965 -11.98,7.821 -11.383,7.841 -9.114,7.916 -3.047,7.891 0,5.69 L 0,0 Z"
+         style="fill:#c8e9e3;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path264"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g266"
+       transform="matrix(1.7642202,0,0,-1.7642202,265.1508,840.9158)"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_piwo.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <path
+         d="m 0,0 c 0,-0.609 -0.493,-1.102 -1.102,-1.102 -0.608,0 -1.102,0.493 -1.102,1.102 0,0.609 0.494,1.102 1.102,1.102 C -0.493,1.102 0,0.609 0,0"
+         style="fill:#f3a800;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path268"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g270"
+       transform="matrix(1.7642202,0,0,-1.7642202,277.04906,834.96686)"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_piwo.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <path
+         d="m 0,0 c 0,-0.609 -0.493,-1.102 -1.102,-1.102 -0.608,0 -1.102,0.493 -1.102,1.102 0,0.609 0.494,1.102 1.102,1.102 C -0.493,1.102 0,0.609 0,0"
+         style="fill:#f3a800;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path272"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g274"
+       transform="matrix(1.7642202,0,0,-1.7642202,273.16143,864.37146)"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_piwo.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <path
+         d="m 0,0 c 0,-0.609 -0.493,-1.102 -1.102,-1.102 -0.608,0 -1.102,0.493 -1.102,1.102 0,0.609 0.494,1.102 1.102,1.102 C -0.493,1.102 0,0.609 0,0"
+         style="fill:#f3a800;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path276"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g278"
+       transform="matrix(1.7642202,0,0,-1.7642202,265.1508,823.2235)"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_piwo.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <path
+         d="m 0,0 c 0,-0.609 -0.493,-1.102 -1.102,-1.102 -0.608,0 -1.102,0.493 -1.102,1.102 0,0.609 0.494,1.102 1.102,1.102 C -0.493,1.102 0,0.609 0,0"
+         style="fill:#f3a800;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path280"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g282"
+       transform="matrix(1.7642202,0,0,-1.7642202,275.10524,806.43801)"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_piwo.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <path
+         d="m 0,0 c 0,-0.609 -0.493,-1.102 -1.102,-1.102 -0.608,0 -1.102,0.493 -1.102,1.102 0,0.609 0.494,1.102 1.102,1.102 C -0.493,1.102 0,0.609 0,0"
+         style="fill:#f3a800;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path284"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g286"
+       transform="matrix(1.7642202,0,0,-1.7642202,251.83571,864.37146)"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_piwo.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <path
+         d="m 0,0 c 0,-0.609 -0.493,-1.102 -1.102,-1.102 -0.608,0 -1.102,0.493 -1.102,1.102 0,0.609 0.494,1.102 1.102,1.102 C -0.493,1.102 0,0.609 0,0"
+         style="fill:#ec9a00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path288"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g290"
+       transform="matrix(1.7642202,0,0,-1.7642202,292.44859,842.85963)"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_piwo.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <path
+         d="m 0,0 c 0,-0.609 -0.493,-1.102 -1.102,-1.102 -0.608,0 -1.102,0.493 -1.102,1.102 0,0.609 0.494,1.102 1.102,1.102 C -0.493,1.102 0,0.609 0,0"
+         style="fill:#f3a800;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path292"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g294"
+       transform="matrix(1.7642202,0,0,-1.7642202,292.44859,810.32564)"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_piwo.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <path
+         d="m 0,0 c 0,-0.608 -0.493,-1.102 -1.102,-1.102 -0.608,0 -1.102,0.494 -1.102,1.102 0,0.609 0.494,1.102 1.102,1.102 C -0.493,1.102 0,0.609 0,0"
+         style="fill:#f3a800;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path296"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g298"
+       transform="matrix(1.7642202,0,0,-1.7642202,286.61713,881.88611)"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_piwo.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <path
+         d="m 0,0 c 0,-0.609 -0.493,-1.102 -1.102,-1.102 -0.608,0 -1.102,0.493 -1.102,1.102 0,0.609 0.494,1.102 1.102,1.102 C -0.493,1.102 0,0.609 0,0"
+         style="fill:#f3a800;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path300"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g302"
+       transform="matrix(1.7642202,0,0,-1.7642202,271.2176,894.15609)"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_piwo.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <path
+         d="m 0,0 c 0,-0.609 -0.493,-1.102 -1.102,-1.102 -0.608,0 -1.102,0.493 -1.102,1.102 0,0.608 0.494,1.102 1.102,1.102 C -0.493,1.102 0,0.608 0,0"
+         style="fill:#f3a800;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path304"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g306"
+       transform="matrix(1.7642202,0,0,-1.7642202,259.31936,909.029)"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_piwo.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <path
+         d="m 0,0 c 0,-0.609 -0.493,-1.102 -1.102,-1.102 -0.608,0 -1.102,0.493 -1.102,1.102 0,0.609 0.494,1.102 1.102,1.102 C -0.493,1.102 0,0.609 0,0"
+         style="fill:#ec9a00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path308"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g310"
+       transform="matrix(1.7642202,0,0,-1.7642202,299.42838,864.37146)"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_piwo.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <path
+         d="m 0,0 c 0,-0.609 -0.493,-1.102 -1.102,-1.102 -0.608,0 -1.102,0.493 -1.102,1.102 0,0.609 0.494,1.102 1.102,1.102 C -0.493,1.102 0,0.609 0,0"
+         style="fill:#f3a800;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path312"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g314"
+       transform="matrix(1.7642202,0,0,-1.7642202,292.44859,907.08518)"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_piwo.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <path
+         d="m 0,0 c 0,-0.609 -0.493,-1.102 -1.102,-1.102 -0.608,0 -1.102,0.493 -1.102,1.102 0,0.609 0.494,1.102 1.102,1.102 C -0.493,1.102 0,0.609 0,0"
+         style="fill:#f3a800;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path316"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g318"
+       transform="matrix(1.7642202,0,0,-1.7642202,290.50476,792.64956)"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_piwo.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <path
+         d="m 0,0 c 0,-0.609 -0.493,-1.102 -1.102,-1.102 -0.608,0 -1.102,0.493 -1.102,1.102 0,0.609 0.494,1.102 1.102,1.102 C -0.493,1.102 0,0.609 0,0"
+         style="fill:#f3a800;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path320"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g322"
+       transform="matrix(1.7642202,0,0,-1.7642202,239.44153,799.42716)"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_piwo.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <path
+         d="m 0,0 c 0,-0.609 -0.493,-1.102 -1.102,-1.102 -0.608,0 -1.102,0.493 -1.102,1.102 0,0.609 0.494,1.102 1.102,1.102 C -0.493,1.102 0,0.609 0,0"
+         style="fill:#ec9a00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path324"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g326"
+       transform="matrix(1.7642202,0,0,-1.7642202,226.05622,812.26945)"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_piwo.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <path
+         d="m 0,0 c 0,-0.608 -0.493,-1.102 -1.102,-1.102 -0.608,0 -1.102,0.494 -1.102,1.102 0,0.609 0.494,1.102 1.102,1.102 C -0.493,1.102 0,0.609 0,0"
+         style="fill:#ec9a00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path328"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g330"
+       transform="matrix(1.7642202,0,0,-1.7642202,241.38554,823.16158)"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_piwo.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <path
+         d="m 0,0 c 0,-0.608 -0.493,-1.102 -1.102,-1.102 -0.608,0 -1.102,0.494 -1.102,1.102 0,0.609 0.494,1.102 1.102,1.102 C -0.493,1.102 0,0.609 0,0"
+         style="fill:#ec9a00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path332"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g334"
+       transform="matrix(1.7642202,0,0,-1.7642202,235.30956,849.62259)"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_piwo.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <path
+         d="m 0,0 c 0,-0.609 -0.493,-1.102 -1.102,-1.102 -0.608,0 -1.102,0.493 -1.102,1.102 0,0.609 0.494,1.102 1.102,1.102 C -0.493,1.102 0,0.609 0,0"
+         style="fill:#ec9a00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path336"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g338"
+       transform="matrix(1.7642202,0,0,-1.7642202,243.32917,883.82992)"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_piwo.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <path
+         d="m 0,0 c 0,-0.609 -0.493,-1.102 -1.102,-1.102 -0.608,0 -1.102,0.493 -1.102,1.102 0,0.609 0.494,1.102 1.102,1.102 C -0.493,1.102 0,0.609 0,0"
+         style="fill:#ec9a00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path340"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g342"
+       transform="matrix(1.7642202,0,0,-1.7642202,229.94386,866.31529)"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_piwo.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <path
+         d="m 0,0 c 0,-0.609 -0.493,-1.102 -1.102,-1.102 -0.608,0 -1.102,0.493 -1.102,1.102 0,0.609 0.494,1.102 1.102,1.102 C -0.493,1.102 0,0.609 0,0"
+         style="fill:#ec9a00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path344"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g346"
+       transform="matrix(1.7642202,0,0,-1.7642202,241.38554,903.19753)"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_piwo.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <path
+         d="m 0,0 c 0,-0.609 -0.493,-1.102 -1.102,-1.102 -0.608,0 -1.102,0.493 -1.102,1.102 0,0.608 0.494,1.102 1.102,1.102 C -0.493,1.102 0,0.608 0,0"
+         style="fill:#ec9a00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path348"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g350"
+       transform="matrix(1.7642202,0,0,-1.7642202,229.94386,831.07922)"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_piwo.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <path
+         d="m 0,0 c 0,-0.609 -0.493,-1.102 -1.102,-1.102 -0.608,0 -1.102,0.493 -1.102,1.102 0,0.609 0.494,1.102 1.102,1.102 C -0.493,1.102 0,0.609 0,0"
+         style="fill:#ec9a00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path352"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g354"
+       transform="matrix(1.7642202,0,0,-1.7642202,224.1124,887.71775)"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_piwo.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <path
+         d="m 0,0 c 0,-0.608 -0.493,-1.102 -1.102,-1.102 -0.608,0 -1.102,0.494 -1.102,1.102 0,0.609 0.494,1.102 1.102,1.102 C -0.493,1.102 0,0.609 0,0"
+         style="fill:#ec9a00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path356"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g358"
+       transform="matrix(1.7642202,0,0,-1.7642202,263.20699,791.69547)"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_piwo.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <path
+         d="m 0,0 c 0,-0.608 -0.493,-1.102 -1.102,-1.102 -0.608,0 -1.102,0.494 -1.102,1.102 0,0.609 0.494,1.102 1.102,1.102 C -0.493,1.102 0,0.609 0,0"
+         style="fill:#f3a800;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path360"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g362"
+       transform="matrix(1.7642202,0,0,-1.7642202,299.42838,823.16158)"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_piwo.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <path
+         d="m 0,0 c 0,-0.608 -0.493,-1.102 -1.102,-1.102 -0.608,0 -1.102,0.494 -1.102,1.102 0,0.609 0.494,1.102 1.102,1.102 C -0.493,1.102 0,0.609 0,0"
+         style="fill:#f3a800;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path364"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g366"
+       transform="matrix(1.7642202,0,0,-1.7642202,303.05896,759.2721)"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_piwo.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <path
+         d="M 0,0 0,-10.757"
+         style="fill:none;stroke:#fffaff;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path368"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g370"
+       transform="matrix(1.7642202,0,0,-1.7642202,303.05896,792.60123)"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_piwo.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <path
+         d="M 0,0 0,-5.484"
+         style="fill:none;stroke:#fef6d9;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path372"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g374"
+       transform="matrix(1.7642202,0,0,-1.7642202,303.05896,811.23139)"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_piwo.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <path
+         d="M 0,0 0,-46.415"
+         style="fill:none;stroke:#fef6d9;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path376"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g1022"
+       transform="matrix(1.25,0,0,-1.25,181.30413,1047.21)"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_wino.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <g
+         id="g1024"
+         clip-path="url(#clipPath1026)">
+        <g
+           id="g1030"
+           transform="translate(262.0107,94.9014)">
+          <path
+             d="m 0,0 c -5.383,0 -9.787,3.984 -9.787,8.855 l 0,99.256 c 0,19.467 13.548,21.034 13.921,27.883 l 2.128,39.022 14.513,0 2.128,-39.022 c 0.373,-6.848 13.922,-8.418 13.922,-27.883 l 0,-99.256 C 36.825,3.985 32.421,0 27.038,0 L 0,0 Z"
+             style="fill:#36021a;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             id="path1032"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g1034"
+           transform="translate(284.9141,230.8955)">
+          <path
+             d="M 0,0 C 0.006,-0.107 0.015,-0.213 0.027,-0.317 0.039,-0.422 0.055,-0.525 0.073,-0.627 0.091,-0.73 0.112,-0.83 0.137,-0.93 0.161,-1.031 0.188,-1.13 0.218,-1.229 0.248,-1.326 0.28,-1.423 0.316,-1.52 0.352,-1.615 0.39,-1.711 0.431,-1.806 c 0.041,-0.095 0.084,-0.188 0.13,-0.282 0.044,-0.093 0.093,-0.185 0.144,-0.277 0.051,-0.093 0.105,-0.184 0.16,-0.276 0.055,-0.09 0.114,-0.18 0.173,-0.271 0.06,-0.09 0.121,-0.18 0.187,-0.27 0.064,-0.088 0.13,-0.177 0.198,-0.266 0.069,-0.089 0.14,-0.177 0.211,-0.265 l 0,-10e-4 C 1.707,-3.803 1.78,-3.891 1.856,-3.979 1.933,-4.066 2.01,-4.155 2.089,-4.243 2.169,-4.332 2.25,-4.42 2.332,-4.508 2.415,-4.597 2.499,-4.686 2.585,-4.773 2.671,-4.863 2.758,-4.951 2.847,-5.041 L 3.116,-5.31 3.395,-5.58 3.68,-5.855 3.97,-6.133 4.267,-6.414 4.569,-6.699 4.876,-6.99 l 0.311,-0.296 0.314,-0.302 0.316,-0.31 0.32,-0.315 0,-0.001 c 0.106,-0.106 0.214,-0.214 0.32,-0.323 0.107,-0.109 0.214,-0.221 0.321,-0.332 0.108,-0.112 0.215,-0.226 0.323,-0.341 0.107,-0.114 0.214,-0.231 0.322,-0.351 0.107,-0.117 0.214,-0.237 0.32,-0.359 0.107,-0.121 0.214,-0.244 0.32,-0.369 0.106,-0.126 0.212,-0.252 0.317,-0.381 0.105,-0.129 0.21,-0.26 0.314,-0.393 0.105,-0.132 0.208,-0.267 0.312,-0.403 l 0,-0.001 c 0.102,-0.137 0.205,-0.275 0.307,-0.416 0.101,-0.14 0.203,-0.283 0.302,-0.43 0.1,-0.144 0.199,-0.292 0.297,-0.443 0.099,-0.148 0.196,-0.301 0.293,-0.456 0.096,-0.154 0.191,-0.311 0.284,-0.472 0.094,-0.159 0.188,-0.322 0.279,-0.486 0.091,-0.165 0.182,-0.332 0.27,-0.502 0.089,-0.17 0.177,-0.343 0.263,-0.517 0.086,-0.176 0.171,-0.355 0.254,-0.536 0.083,-0.181 0.164,-0.365 0.244,-0.552 0.08,-0.187 0.157,-0.377 0.234,-0.571 0.076,-0.192 0.151,-0.388 0.224,-0.588 0.072,-0.199 0.142,-0.401 0.212,-0.606 0.068,-0.206 0.135,-0.414 0.2,-0.626 0.064,-0.213 0.127,-0.428 0.187,-0.646 0.061,-0.219 0.12,-0.442 0.175,-0.666 0.056,-0.227 0.11,-0.456 0.161,-0.689 0.052,-0.232 0.101,-0.468 0.147,-0.708 0.046,-0.24 0.091,-0.483 0.132,-0.73 0.041,-0.248 0.08,-0.498 0.116,-0.754 0.036,-0.254 0.069,-0.514 0.099,-0.776 0.031,-0.263 0.059,-0.529 0.084,-0.801 0.025,-0.27 0.046,-0.544 0.065,-0.824 0.019,-0.278 0.035,-0.56 0.048,-0.847 0.013,-0.287 0.022,-0.579 0.029,-0.875 0.006,-0.295 0.01,-0.595 0.01,-0.899 l 0,-99.256 c 0,-4.87 -4.404,-8.855 -9.787,-8.855 l -16.943,0 c -4.527,0 -7.241,5.009 -7.241,8.279 l 0,99.832 c 0,19.467 9.008,21.026 9.029,27.883 l 0.124,39.021 8.768,0 L 0,0 Z"
+             style="fill:#57072c;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             id="path1036"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g1038"
+           transform="translate(268.3418,232.9473)">
+          <path
+             d="m 0,0 1.563,36.97 1.503,0 L 1.954,0 C 1.896,-1.935 0.036,-1.825 0,0 m -10.879,-129.19 0,99.255 c 0,11.259 3.513,16.53 6.531,20.298 0.377,0.472 0.746,0.92 1.102,1.353 1.449,1.761 3.291,1.855 2.443,0 -0.241,-0.528 -0.584,-1.012 -0.883,-1.563 -2.05,-3.78 -4.212,-9.166 -4.212,-19.726 l 0,-99.851 c 0,-4.597 -4.981,-2.93 -4.981,0.234"
+             style="fill:#57072c;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             id="path1040"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g1042"
+           transform="translate(285.9639,224.6631)">
+          <path
+             d="M 0,0 C 0.463,-0.455 0.833,-1.014 1.268,-1.561 4.247,-5.316 7.633,-10.6 7.633,-21.65 l 0,-99.256 c 0,-5.037 -4.981,-4.414 -4.981,-0.547 l 0,100.164 c 0,10.404 -2.099,15.785 -4.123,19.559 C -1.8,-1.117 -2.337,-0.607 -2.443,0 -2.789,1.958 -1.426,1.401 0,0 m -6.313,45.254 1.504,0 1.563,-36.97 c 0.069,-1.655 -1.901,-1.798 -1.956,0 l -1.111,36.97 z"
+             style="fill:#771743;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             id="path1044"
+             inkscape:connector-curvature="0" />
+        </g>
+        <path
+           d="m 254.447,141.903 42.164,0 0,58.655 -42.164,0 0,-58.655 z"
+           style="fill:#ab4b3a;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           id="path1046"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 257.463,200.559 4.98,0 0,-58.655 -4.98,0 0,58.655 z"
+           style="fill:#c25745;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           id="path1048"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 264.865,200.559 31.746,0 0,-58.655 -31.746,0 0,58.655 z"
+           style="fill:#c25745;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           id="path1050"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 288.616,200.559 4.98,0 0,-58.655 -4.98,0 0,58.655 z"
+           style="fill:#d16c5a;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           id="path1052"
+           inkscape:connector-curvature="0" />
+        <g
+           id="g1054"
+           transform="translate(266.8066,243.0195)">
+          <path
+             d="m 0,0 1.466,26.897 14.513,0 L 17.446,0 0,0 Z"
+             style="fill:#ab4b3a;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             id="path1056"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g1058"
+           transform="translate(269.9043,269.917)">
+          <path
+             d="m 0,0 0.3,0 0.336,0 0.319,0 0.304,0 0.245,0 -0.809,-26.897 -1.833,0 L 0,0 Z"
+             style="fill:#c25745;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             id="path1060"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g1062"
+           transform="translate(268.0244,265.3652)">
+          <path
+             d="m 0,0 0.248,4.552 14.514,0 L 15.01,0 0,0 Z"
+             style="fill:#913a2a;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             id="path1064"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g1066"
+           transform="translate(269.9043,269.917)">
+          <path
+             d="m 0,0 0.3,0 0.336,0 0.319,0 0.304,0 0.001,0 0.244,0 -0.137,-4.552 -1.559,0 L 0,0 Z"
+             style="fill:#ab4b3a;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             id="path1068"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g1070"
+           transform="translate(266.8379,273.998)">
+          <path
+             d="m 0,0 17.383,0 c 0.902,0 1.639,-0.737 1.639,-1.64 l 0,-4.593 c 0,-0.902 -0.737,-1.639 -1.639,-1.639 L 0,-7.872 c -0.901,0 -1.639,0.737 -1.639,1.639 l 0,4.593 C -1.639,-0.737 -0.901,0 0,0"
+             style="fill:#ab4b3a;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             id="path1072"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g1074"
+           transform="translate(282.9922,266.126)">
+          <path
+             d="m 0,0 1.261,-23.106 -10.32,0 0.041,23.136 c -0.832,0.149 -1.463,0.816 -1.463,1.609 l 0,4.593 c 0,0.798 0.639,1.468 1.477,1.612 l 0,0.028 0.335,0 4.225,0 5.5,0 c 0.997,0 1.812,-0.739 1.812,-1.64 l 0,-4.593 C 2.868,0.736 2.053,0 1.056,0 L 0,0 Z"
+             style="fill:#c25745;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             id="path1076"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g1078"
+           transform="translate(282.292,243.0195)">
+          <path
+             d="m 0,0 -1.832,0 -0.81,23.106 1.505,0 L 0,0 Z"
+             style="fill:#d16c5a;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             id="path1080"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g1082"
+           transform="translate(282.9922,266.126)">
+          <path
+             d="m 0,0 0.042,-0.761 -9.062,0 L -8.985,0 0,0 Z"
+             style="fill:#ab4b3a;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             id="path1084"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g1086"
+           transform="translate(281.1924,265.3652)">
+          <path
+             d="m 0,0 -1.516,0 -0.026,0.761 1.505,0 L 0,0 Z"
+             style="fill:#c25745;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             id="path1088"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g1090"
+           transform="translate(281.8281,273.998)">
+          <path
+             d="m 0,0 0.009,-7.872 1.814,0 L 1.718,0 0,0 Z"
+             style="fill:#d16c5a;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             id="path1092"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g1094"
+           transform="translate(269.7988,273.998)">
+          <path
+             d="m 0,0 -0.009,-7.872 -1.8,0 L -1.703,0 0,0 Z"
+             style="fill:#c25745;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             id="path1096"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g1098"
+           transform="translate(314.4971,94.9014)">
+          <path
+             d="m 0,0 31.429,0 c 1.018,0 1.851,0.832 1.851,1.852 0,1.019 -0.833,1.852 -1.851,1.852 L 0,3.704 C -1.019,3.704 -1.852,2.871 -1.852,1.852 -1.852,0.832 -1.019,0 0,0"
+             style="fill:#bbd8e6;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             id="path1100"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g1102"
+           transform="translate(336.2305,97.5752)">
+          <path
+             d="m 0,0 c -1.579,1.549 -3.838,2.533 -3.838,7.982 l 0,28.114 c 0,5.847 3.109,8.717 6.492,11.058 l -17.345,0 c 3.382,-2.341 6.492,-5.213 6.492,-11.06 l 0,-28.11 C -8.199,2.535 -10.458,1.55 -12.038,0 -9.74,-2.103 -2.747,-1.389 0,0"
+             style="fill:#bbd8e6;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             id="path1104"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g1106"
+           transform="translate(321.8359,144.5225)">
+          <path
+             d="m 0,0 c 3.266,-2.305 6.195,-5.178 6.195,-10.854 l 0,-28.109 c 0,-4.274 -1.39,-5.803 -2.752,-7.012 4.78,-0.311 4.454,7.073 4.454,9.321 l 0,28.115 c 0,2.59 -0.001,7.289 -1.671,8.746 C 4.856,1.4 2.029,-0.464 0,0"
+             style="fill:#99b9c9;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             id="path1108"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g1110"
+           transform="translate(314.4971,94.9014)">
+          <path
+             d="m 0,0 31.429,0 c 1.018,0 1.851,0.832 1.851,1.852 l -35.132,0 C -1.852,0.832 -1.019,0 0,0"
+             style="fill:#99b9c9;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             id="path1112"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g1114"
+           transform="translate(344.9219,202.668)">
+          <path
+             d="m 0,0 -29.42,0 c -1.508,-5.73 -9.427,-24.664 -5.308,-41.102 3.084,-12.304 11.408,-19.322 20.018,-19.322 8.609,0 16.934,7.018 20.017,19.322 C 9.427,-24.663 1.508,-5.73 0,0"
+             style="fill:#99b9c9;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             id="path1116"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g1118"
+           transform="translate(321.0527,202.668)">
+          <path
+             d="m 0,0 -2.521,0 c -1.198,-5.521 -7.486,-23.757 -4.215,-39.589 1.305,-6.318 3.793,-11.187 6.867,-14.359 -1.504,3.125 -2.706,7.126 -3.436,11.91 C -5.87,-25.226 -0.939,-5.86 0,0"
+             style="fill:#bbd8e6;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             id="path1120"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g1122"
+           transform="translate(310.0791,182.8359)">
+          <path
+             d="m 0,0 c -1.204,-6.725 -1.649,-14.226 0.115,-21.27 3.084,-12.304 11.407,-19.322 20.018,-19.322 8.609,0 16.933,7.018 20.016,19.322 1.766,7.044 1.32,14.545 0.116,21.27 L 0,0 Z"
+             style="fill:#57072c;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             id="path1124"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g1126"
+           transform="translate(344.9219,202.668)">
+          <path
+             d="m 0,0 -18.47,0 c -1.048,-5.73 -6.551,-24.664 -3.688,-41.102 1.823,-10.47 6.285,-17.112 11.262,-18.858 7.16,1.746 13.579,8.388 16.203,18.858 0.837,3.339 1.176,6.781 1.174,10.195 C 6.475,-17.517 1.201,-4.567 0,0"
+             style="fill:#bbd8e6;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             id="path1128"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g1130"
+           transform="translate(341.8926,202.668)">
+          <path
+             d="m 0,0 -2.521,0 c 0.938,-5.86 5.869,-25.226 3.304,-42.038 -0.73,-4.784 -1.931,-8.785 -3.435,-11.91 3.074,3.172 5.56,8.041 6.866,14.359 C 7.484,-23.757 1.197,-5.521 0,0"
+             style="fill:#e1f2fa;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             id="path1132"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g1134"
+           transform="translate(322.6836,182.8359)">
+          <path
+             d="m 0,0 c -0.837,-6.725 -1.146,-14.226 0.08,-21.27 1.823,-10.47 6.285,-17.111 11.262,-18.858 7.16,1.747 13.579,8.388 16.203,18.858 0.837,3.339 1.177,6.781 1.175,10.195 C 28.718,-7.288 28.294,-3.536 27.661,0 L 0,0 Z"
+             style="fill:#771743;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             id="path1136"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g1138"
+           transform="translate(314.1211,182.8359)">
+          <path
+             d="m 0,0 c -0.876,-6.288 -1.153,-13.227 0.195,-19.757 1.306,-6.317 3.793,-11.187 6.868,-14.359 -1.504,3.125 -2.707,7.126 -3.436,11.91 C 2.504,-14.844 2.817,-6.992 3.604,0 L 0,0 Z"
+             style="fill:#771743;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             id="path1140"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g1142"
+           transform="translate(342.6982,182.8359)">
+          <path
+             d="m 0,0 c 0.786,-6.992 1.101,-14.844 -0.022,-22.206 -0.731,-4.784 -1.932,-8.785 -3.436,-11.91 3.074,3.172 5.561,8.041 6.866,14.359 C 4.757,-13.227 4.48,-6.288 3.604,0 L 0,0 Z"
+             style="fill:#a63f6f;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             id="path1144"
+             inkscape:connector-curvature="0" />
+        </g>
+      </g>
+    </g>
+    <g
+       id="g146"
+       transform="matrix(1.1894816,0,0,-1.1894816,828.93654,759.64221)"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_wodka.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <path
+         d="m 0,0 c 0,-4.952 -3.937,-8.968 -7.793,-11.97 l -6.076,-4.731 c -2.775,-2.16 -3.829,-5.915 -3.528,-11.906 l 4.668,-92.876 c 0.267,-5.303 -1.643,-10.559 -3.451,-15.551 -1.037,-2.862 -1.063,-8.916 5.439,-8.916 l 10.802,0 6.895,0 21.206,0 c 6.502,0 6.475,6.054 5.439,8.916 -1.808,4.992 -3.718,10.248 -3.452,15.551 l 4.669,92.876 c 0.301,5.991 -0.754,9.746 -3.529,11.906 l -6.076,4.731 C 21.356,-8.968 17.421,-4.952 17.421,0 l -6.957,18.491 -3.508,0 L 0,0 Z"
+         style="fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:none"
+         id="path148"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g150"
+       transform="matrix(1.1894816,0,0,-1.1894816,829.71482,933.24728)"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_wodka.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <path
+         d="m 0,0 6.302,0 21.206,0 c 6.502,0 6.474,6.055 5.438,8.916 -1.807,4.992 -3.717,10.248 -3.451,15.551 l 4.669,92.876 c 0.032,0.655 0.049,1.283 0.049,1.886 0,4.908 -1.107,8.096 -3.578,10.02 l -6.076,4.731 c -3.857,3.002 -7.792,7.018 -7.792,11.97 l 0.04,33.878 c 0.004,1.481 -0.932,2.733 -2.643,2.776 l -6.108,0 0.002,-36.654 c 0,-4.952 -2.953,-8.968 -5.845,-11.97 l -4.559,-4.731 c -2.081,-2.16 -2.873,-5.915 -2.646,-11.906 L -1.49,24.467 C -1.29,19.164 -2.723,13.908 -4.079,8.916 -4.857,6.055 -4.877,0 0,0"
+         style="fill:#e6e6e6;fill-opacity:1;fill-rule:evenodd;stroke:none"
+         id="path152"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g154"
+       transform="matrix(1.1894816,0,0,-1.1894816,862.31981,929.37683)"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_wodka.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <path
+         d="m 0,0 c 1.748,0.256 0.817,4.197 0.397,5.662 -1.435,4.992 -2.951,10.248 -2.739,15.551 l 3.705,92.876 c 0.239,5.991 -0.598,9.746 -2.801,11.906 l -4.822,4.732 c -3.059,3.002 -6.183,7.017 -6.183,11.969 l -0.786,2.636 -0.86,0 0.35,-1.469 c 0,-5.044 2.538,-9.132 5.023,-12.189 l 3.919,-4.818 c 1.788,-2.2 2.469,-6.023 2.275,-12.124 L -5.532,20.155 C -5.704,14.756 -4.473,9.403 -3.308,4.32 -3.066,3.271 -2.879,-0.422 0,0"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none"
+         id="path156"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g158"
+       transform="matrix(1.1894816,0,0,-1.1894816,831.07499,759.64221)"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_wodka.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <path
+         d="m 0,0 c 0,-4.952 -3.123,-8.968 -6.184,-11.97 l -4.821,-4.731 c -2.202,-2.16 -3.04,-5.915 -2.801,-11.906 l 3.705,-92.876 c 0.212,-5.303 -1.304,-10.559 -2.738,-15.551 -0.638,-2.218 -0.319,-6.436 2.002,-6.51 2.053,-0.064 1.221,3.068 1.701,5.168 1.166,5.083 2.398,10.436 2.226,15.835 l -3.01,94.577 c -0.194,6.101 0.485,9.924 2.274,12.124 l 3.918,4.818 c 2.487,3.057 5.024,7.145 5.024,12.189 l 0.35,1.469 -0.859,0 L 0,0 Z"
+         style="fill:#e6e6e6;fill-opacity:1;fill-rule:evenodd;stroke:none"
+         id="path160"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g162"
+       transform="matrix(1.1894816,0,0,-1.1894816,832.03097,716.04377)"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_wodka.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <path
+         d="m 0,0 12.217,0 c 1.454,0 2.642,-1.189 2.642,-2.643 l 0,-35.201 -17.501,0 0,35.201 C -2.642,-1.189 -1.453,0 0,0"
+         style="fill:#c4191f;fill-opacity:1;fill-rule:evenodd;stroke:none"
+         id="path164"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g166"
+       transform="matrix(1.1894816,0,0,-1.1894816,832.31788,720.60888)"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_wodka.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <path
+         d="m 0,0 -0.005,-34.006 -1.1,0 L -1.041,0 0,0 Z"
+         style="fill:#db383d;fill-opacity:1;fill-rule:evenodd;stroke:none"
+         id="path168"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g170"
+       transform="matrix(1.1894816,0,0,-1.1894816,839.2968,716.04377)"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_wodka.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <path
+         d="m 0,0 6.108,0 c 0.233,-0.006 0.449,-0.034 0.651,-0.082 0.78,-0.199 1.424,-0.748 1.754,-1.467 0.158,-0.372 0.239,-0.789 0.238,-1.226 l -0.04,-33.878 c 0,-0.29 0.014,-0.576 0.04,-0.861 l 0,-0.33 -8.806,0 c 0.037,0.391 0.057,0.787 0.057,1.191 L 0,0 Z"
+         style="fill:#db383d;fill-opacity:1;fill-rule:evenodd;stroke:none"
+         id="path172"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g174"
+       transform="matrix(1.1894816,0,0,-1.1894816,847.5976,720.60888)"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_wodka.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <path
+         d="m 0,0 -0.006,-34.006 -1.099,0 L -1.041,0 0,0 Z"
+         style="fill:#f26d72;fill-opacity:1;fill-rule:evenodd;stroke:none"
+         id="path176"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g178"
+       transform="matrix(1.1894816,0,0,-1.1894816,868.06631,835.41587)"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_wodka.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <path
+         d="m 0,0 0.817,16.251 -0.024,0.014 0.024,0.485 c -14.153,7.733 -35.829,7.733 -49.982,0 l 0.024,-0.485 -0.024,-0.014 L -48.348,0 C -33.306,8.763 -15.044,8.79 0,0"
+         style="fill:#c4191f;fill-opacity:1;fill-rule:evenodd;stroke:none"
+         id="path180"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g182"
+       transform="matrix(1.1894816,0,0,-1.1894816,819.85972,811.29401)"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_wodka.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <path
+         d="m 0,0 c -1.275,-0.375 -2.523,-0.798 -3.735,-1.267 l 0.662,-16.584 c 1.184,0.529 2.385,1.006 3.596,1.433 L 0,0 Z"
+         style="fill:#db383d;fill-opacity:1;fill-rule:evenodd;stroke:none"
+         id="path184"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g186"
+       transform="matrix(1.1894816,0,0,-1.1894816,868.06631,835.41587)"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_wodka.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <path
+         d="m 0,0 0.817,16.251 -0.024,0.014 0.024,0.485 c -10.431,5.699 -24.949,7.197 -37.529,4.495 l 0.61,-16.191 C -24.046,8.182 -11.141,6.51 0,0"
+         style="fill:#db383d;fill-opacity:1;fill-rule:evenodd;stroke:none"
+         id="path188"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g190"
+       transform="matrix(1.1894816,0,0,-1.1894816,863.17826,812.79015)"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_wodka.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <path
+         d="m 0,0 c -1.212,0.468 -2.46,0.89 -3.736,1.265 l -0.522,-16.409 c 1.211,-0.426 2.412,-0.903 3.597,-1.429 L 0,0 Z"
+         style="fill:#f26d72;fill-opacity:1;fill-rule:evenodd;stroke:none"
+         id="path192"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g194"
+       transform="matrix(1.1894816,0,0,-1.1894816,839.31191,835.79341)"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_wodka.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <path
+         d="m 0,0 c 10.744,0 19.453,-4.259 19.453,-9.513 0,-5.254 -8.709,-23.935 -19.453,-23.935 -10.744,0 -19.453,18.681 -19.453,23.935 C -19.453,-4.259 -10.744,0 0,0"
+         style="fill:#c4191f;fill-opacity:1;fill-rule:evenodd;stroke:none"
+         id="path196-8"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g198"
+       transform="matrix(1.1894816,0,0,-1.1894816,839.31191,835.79341)"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_wodka.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <path
+         d="m 0,0 c 10.744,0 19.453,-4.259 19.453,-9.513 0,-5.254 -8.709,-23.935 -19.453,-23.935 -3.948,0 -7.622,2.524 -10.689,5.977 l -0.965,25.576 C -8.406,-0.705 -4.371,0 0,0"
+         style="fill:#db383d;fill-opacity:1;fill-rule:evenodd;stroke:none"
+         id="path200-9"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g202"
+       transform="matrix(1.1894816,0,0,-1.1894816,828.95509,721.76815)"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_wodka.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <path
+         d="m 0,0 0.287,5.828 16.816,0 L 17.39,0 0,0 Z"
+         style="fill:#960e12;fill-opacity:1;fill-rule:evenodd;stroke:none"
+         id="path204"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g206"
+       transform="matrix(1.1894816,0,0,-1.1894816,832.31788,721.76815)"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_wodka.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <path
+         d="M 0,0 -1.042,0 -1.041,0.975 0,0.975 0,0 Z"
+         style="fill:#c4191f;fill-opacity:1;fill-rule:evenodd;stroke:none"
+         id="path208"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g210"
+       transform="matrix(1.1894816,0,0,-1.1894816,827.55769,708.61998)"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_wodka.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <path
+         d="m 0,0 19.739,0 c 1.156,0 2.1,-0.944 2.1,-2.1 l 0,-5.879 c 0,-1.156 -0.944,-2.1 -2.1,-2.1 l -19.739,0 c -1.155,0 -2.1,0.944 -2.1,2.1 l 0,5.879 C -2.1,-0.944 -1.155,0 0,0"
+         style="fill:#c4191f;fill-opacity:1;fill-rule:evenodd;stroke:none"
+         id="path212"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g214"
+       transform="matrix(1.1894816,0,0,-1.1894816,849.59212,720.60888)"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_wodka.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <path
+         d="m 0,0 0.04,-0.975 -8.694,0 L -8.622,0 0,0 Z"
+         style="fill:#c4191f;fill-opacity:1;fill-rule:evenodd;stroke:none"
+         id="path216"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g218"
+       transform="matrix(1.1894816,0,0,-1.1894816,847.59653,721.76815)"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_wodka.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <path
+         d="m 0,0 -1.042,0 0.002,0.975 1.041,0 L 0,0 Z"
+         style="fill:#db383d;fill-opacity:1;fill-rule:evenodd;stroke:none"
+         id="path220"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g222"
+       transform="matrix(1.1894816,0,0,-1.1894816,847.97633,708.61998)"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_wodka.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <path
+         d="m 0,0 0.012,-10.079 2.101,0 L 1.991,0 0,0 Z"
+         style="fill:#d16c5a;fill-opacity:1;fill-rule:evenodd;stroke:none"
+         id="path224-0"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g226"
+       transform="matrix(1.1894816,0,0,-1.1894816,830.41411,708.61998)"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_wodka.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <path
+         d="m 0,0 -0.007,-10.079 -1.26,0 L -1.193,0 0,0 Z"
+         style="fill:#db383d;fill-opacity:1;fill-rule:evenodd;stroke:none"
+         id="path228-3"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g230"
+       transform="matrix(1.1894816,0,0,-1.1894816,837.01193,708.61998)"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_wodka.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <path
+         d="m 0,0 11.791,0 c 1.155,0 2.1,-0.944 2.1,-2.1 l 0,-5.88 c 0,-1.155 -0.946,-2.099 -2.1,-2.099 l -11.791,0 c -1.154,0 -2.1,0.944 -2.1,2.099 l 0,5.88 C -2.1,-0.944 -1.155,0 0,0"
+         style="fill:#db383d;fill-opacity:1;fill-rule:evenodd;stroke:none"
+         id="path232-1"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g234-7"
+       transform="matrix(1.1894816,0,0,-1.1894816,849.18556,708.61998)"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_wodka.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <path
+         d="m 0,0 -0.005,-10.079 -1.043,0 L -0.986,0 0,0 Z"
+         style="fill:#f26d72;fill-opacity:1;fill-rule:evenodd;stroke:none"
+         id="path236-6"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g238-1"
+       transform="matrix(1.1894816,0,0,-1.1894816,881.7952,870.61823)"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_wodka.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <path
+         d="m 0,0 48.449,0 -9.64,-52.652 -29.168,0 L 0,0 Z"
+         style="fill:#99b9c9;fill-opacity:1;fill-rule:evenodd;stroke:none"
+         id="path240-8"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g242-1"
+       transform="matrix(1.1894816,0,0,-1.1894816,936.85177,884.67135)"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_wodka.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <path
+         d="m 0,0 -4.471,-24.416 -35.181,0 L -44.123,0 0,0 Z"
+         style="fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:none"
+         id="path244-8"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g246-6"
+       transform="matrix(1.1894816,0,0,-1.1894816,898.89638,870.61823)"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_wodka.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <path
+         d="m 0,0 34.072,0 -9.64,-52.652 -17.653,0 L 0,0 Z"
+         style="fill:#bbd8e6;fill-opacity:1;fill-rule:evenodd;stroke:none"
+         id="path248-0"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g250-0"
+       transform="matrix(1.1894816,0,0,-1.1894816,927.4915,870.61823)"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_wodka.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <path
+         d="M 0,0 5.212,0 -4.895,-50.163 c -0.224,-1.113 -2.182,-1.196 -2.017,0 L 0,0 Z"
+         style="fill:#e1f2fa;fill-opacity:1;fill-rule:evenodd;stroke:none"
+         id="path252-5"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g254-0"
+       transform="matrix(1.1894816,0,0,-1.1894816,887.52898,870.61823)"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_wodka.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <path
+         d="m 0,0 5.212,0 7.249,-50.163 c 0.171,-1.177 -1.779,-1.145 -2.018,0 L 0,0 Z"
+         style="fill:#bbd8e6;fill-opacity:1;fill-rule:evenodd;stroke:none"
+         id="path256-9"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g258-1"
+       transform="matrix(1.1894816,0,0,-1.1894816,895.75887,884.67135)"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_wodka.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <path
+         d="m 0,0 3.528,-24.416 -2.904,0 L -4.459,0 0,0 Z"
+         style="fill:#e6e6e6;fill-opacity:1;fill-rule:evenodd;stroke:none"
+         id="path260-1"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g262-3"
+       transform="matrix(1.1894816,0,0,-1.1894816,936.85177,884.67135)"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_wodka.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <path
+         d="m 0,0 -4.471,-24.416 -22.773,0 L -30.389,0 0,0 Z"
+         style="fill:#e6e6e6;fill-opacity:1;fill-rule:evenodd;stroke:none"
+         id="path264-8"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g266-9"
+       transform="matrix(1.1894816,0,0,-1.1894816,930.85905,884.67135)"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_wodka.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <path
+         d="m 0,0 -4.918,-24.416 -2.905,0 L -4.459,0 0,0 Z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none"
+         id="path268-8"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       transform="matrix(1.2040203,0,0,-1.2040203,-825.31356,1606.2783)"
+       id="g2556"
+       inkscape:export-filename="C:\Users\bartosz\Desktop\hcktn2\PartyPlanner\src\graphics\napoje_drinki.png"
+       inkscape:export-xdpi="95.449997"
+       inkscape:export-ydpi="95.449997">
+      <g
+         id="g2558"
+         clip-path="url(#clipPath2560)">
+        <g
+           id="g2564"
+           transform="translate(677.8164,565.5615)">
+          <path
+             d="m 0,0 25.45,0 c 0.934,0 1.698,0.764 1.698,1.698 0,0.935 -0.764,1.698 -1.698,1.698 L 0,3.396 C -0.935,3.396 -1.698,2.633 -1.698,1.698 -1.698,0.764 -0.935,0 0,0"
+             style="fill:#bbd8e6;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             id="path2566"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g2568"
+           transform="translate(696.0596,568.6338)">
+          <path
+             d="m 0,0 c -1.448,2.148 -4.007,3.61 -4.007,11.164 l 0,11.291 c 0,8.108 3.339,11.989 6.44,15.234 l -15.903,0 c 3.102,-3.246 6.49,-7.032 6.49,-15.138 l 0,-11.285 C -6.98,3.713 -9.589,2.148 -11.037,0 -8.93,-2.914 -2.519,-1.925 0,0"
+             style="fill:#bbd8e6;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             id="path2570"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g2572"
+           transform="translate(682.8613,606.0352)">
+          <path
+             d="m 0,0 c 2.994,-3.194 6.218,-6.982 6.218,-14.851 l 0,-11.286 c 0,-5.925 -1.812,-8.239 -3.061,-9.914 4.383,-0.432 4.084,9.804 4.084,12.921 l 0,11.291 c 0,3.592 0,10.107 -1.532,12.127 C 4.454,1.942 1.861,-0.643 0,0"
+             style="fill:#99b9c9;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             id="path2574"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g2576"
+           transform="translate(677.6387,565.5615)">
+          <path
+             d="m 0,0 25.805,0 c 0.837,0 1.52,0.764 1.52,1.698 l -28.846,0 C -1.521,0.764 -0.836,0 0,0"
+             style="fill:#99b9c9;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             id="path2578"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g2580"
+           transform="translate(658.3955,629.2373)">
+          <path
+             d="M 0,0 64.292,0 38.72,-24.41 25.573,-24.41 0,0 Z"
+             style="fill:#99b9c9;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             id="path2582"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g2584"
+           transform="translate(674.9434,629.2373)">
+          <path
+             d="m 0,0 47.744,0 -25.572,-24.41 -7.855,0 L 0,0 Z"
+             style="fill:#bbd8e6;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             id="path2586"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g2588"
+           transform="translate(666.124,629.2373)">
+          <path
+             d="m 0,0 4.382,0 16.27,-24.41 -0.872,0 L 0,0 Z"
+             style="fill:#bbd8e6;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             id="path2590"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g2592"
+           transform="translate(715.499,629.2373)">
+          <path
+             d="m 0,0 -4.381,0 -16.27,-24.41 0.871,0 L 0,0 Z"
+             style="fill:#e1f2fa;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             id="path2594"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g2596"
+           transform="translate(716.1426,622.9893)">
+          <path
+             d="m 0,0 -17.19,-16.408 -16.822,0 L -51.202,0 0,0 Z"
+             style="fill:#83a17d;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             id="path2598"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g2600"
+           transform="translate(674.6699,622.9893)">
+          <path
+             d="m 0,0 10.938,-16.408 -1.124,0 L -3.483,0 0,0 Z"
+             style="fill:#a9c7a3;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             id="path2602"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g2604"
+           transform="translate(707.3008,614.5498)">
+          <path
+             d="m 0,0 -8.349,-7.969 -10.719,0 -9.625,16.408 37.535,0 L 0,0 Z"
+             style="fill:#a9c7a3;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             id="path2606"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g2608"
+           transform="translate(706.9541,622.9893)">
+          <path
+             d="m 0,0 -10.938,-16.408 1.124,0 L 3.483,0 0,0 Z"
+             style="fill:#d3ebce;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             id="path2610"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g2612"
+           transform="translate(714.3037,647.9277)">
+          <path
+             d="m 0,0 c -0.965,-3.921 -2.87,-10.041 -5.299,-16.835 -2.429,-6.795 -4.836,-12.736 -6.575,-16.38 0.964,3.921 2.869,10.042 5.298,16.836 C -4.147,-9.585 -1.74,-3.643 0,0"
+             style="fill:#faac46;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             id="path2614"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g2616"
+           transform="translate(700.7148,622.9893)">
+          <path
+             d="M 0,0 1.139,0 C -0.178,-3.334 -1.396,-6.184 -2.396,-8.276 -1.862,-6.105 -1.039,-3.26 0,0"
+             style="fill:#d2ba74;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             id="path2618"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g2620"
+           transform="translate(704.3428,632.6709)">
+          <path
+             d="m 0,0 c 2.167,-0.774 3.149,-3.567 2.194,-6.239 -0.955,-2.67 -3.485,-4.208 -5.652,-3.433 -2.167,0.775 -3.15,3.568 -2.195,6.238 C -4.698,-0.762 -2.167,0.775 0,0"
+             style="fill:#57804e;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             id="path2622"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g2624"
+           transform="translate(698.6895,629.2373)">
+          <path
+             d="M 0,0 8.165,0 C 8.282,-0.887 8.188,-1.854 7.848,-2.806 6.893,-5.476 4.362,-7.014 2.195,-6.238 0.028,-5.464 -0.954,-2.671 0,0"
+             style="fill:#89ac9a;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             id="path2626"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g2628"
+           transform="translate(702.8125,632.1104)">
+          <path
+             d="M 0,0 C 0.706,-0.252 1.025,-1.16 0.715,-2.03 0.404,-2.9 -0.42,-3.4 -1.126,-3.148 -1.831,-2.896 -2.15,-1.986 -1.84,-1.117 -1.529,-0.247 -0.705,0.254 0,0"
+             style="fill:#89b080;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             id="path2630"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g2632"
+           transform="translate(618.5645,718.3467)">
+          <path
+             d="m 0,0 c 0,-22.847 -10.351,-31.94 -16.531,-48.19 -9.804,-25.776 3.388,-43.677 3.388,-77.018 0,-7.808 -6.076,-27.577 4.717,-27.577 l 14.086,0 17.89,0 c 10.793,0 4.717,19.769 4.717,27.577 0,33.341 13.192,51.242 3.388,77.018 C 25.475,-31.94 15.124,-22.847 15.124,0 L 0,0 Z"
+             style="fill:#83a17d;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             id="path2634"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g2636"
+           transform="translate(622.3145,565.5615)">
+          <path
+             d="M 0,0 1.91,0 19.8,0 c 10.793,0 4.717,19.77 4.717,27.577 0,33.341 13.192,51.242 3.388,77.018 -6.18,16.25 -16.531,25.343 -16.531,48.19 l -5.296,0 c 0,-22.847 -7.467,-31.94 -11.926,-48.19 C -12.92,78.819 -3.403,60.918 -3.403,27.577 -3.403,19.77 -7.786,0 0,0"
+             style="fill:#a9c7a3;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             id="path2638"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g2640"
+           transform="translate(644.2266,571.7344)">
+          <path
+             d="m 0,0 c 0.86,6.477 -1.18,16.397 -1.18,21.404 0,33.341 10.783,51.242 2.771,77.018 -5.052,16.25 -14.777,25.344 -14.777,48.19 l -1.055,0 C -13.613,125.21 -5.874,115.827 -1.93,99.684 4.65,72.755 -4.204,54.053 -4.204,19.22 -4.204,14.693 -2.95,6.32 -3.069,-0.237 -3.139,-4.018 -0.418,-3.152 0,0"
+             style="fill:#d3ebce;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             id="path2642"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g2644"
+           transform="translate(621.25,718.3467)">
+          <path
+             d="m 0,0 c 0,-22.847 -9.763,-31.94 -14.813,-48.19 -8.013,-25.776 2.769,-43.677 2.769,-77.018 0,-4.931 -1.979,-14.63 -1.217,-21.108 0.408,-3.473 3.133,-4.462 3.101,-0.004 -0.047,6.472 1.14,14.522 1.14,18.927 0,34.833 -8.853,53.536 -2.274,80.464 C -7.35,-30.785 0.428,-21.402 1.055,0 L 0,0 Z"
+             style="fill:#a9c7a3;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             id="path2646"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g2648"
+           transform="translate(620.8477,742.5469)">
+          <path
+             d="m 0,0 10.558,0 c 1.255,0 2.234,-1.153 2.283,-2.561 0.391,-11.373 -0.655,-29.363 1.176,-34.118 l -17.476,0 c 2.118,2.819 0.784,22.745 1.176,34.118 C -2.234,-1.153 -1.256,0 0,0"
+             style="fill:#2d6759;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             id="path2650"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g2652"
+           transform="translate(620.8477,742.5469)">
+          <path
+             d="m 0,0 10.558,0 c 1.255,0 2.234,-1.153 2.283,-2.561 0.03,-0.893 0.053,-1.827 0.067,-2.793 l -15.254,0 c 0.013,0.974 0.033,1.91 0.063,2.793 C -2.234,-1.153 -1.256,0 0,0"
+             style="fill:#1a473c;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             id="path2654"
+             inkscape:connector-curvature="0" />
+        </g>
+        <path
+           d="m 621.249,718.347 0.94,0 0,24.2 -0.94,0 0,-24.2 z"
+           style="fill:#4d8779;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           id="path2656"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 622.189,742.547 -0.939,0 0,-5.354 0.939,0 0,5.354 z"
+           style="fill:#2d6759;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           id="path2658"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 628.393,718.347 5.39,0 0,24.2 -5.39,0 0,-24.2 z"
+           style="fill:#4d8779;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           id="path2660"
+           inkscape:connector-curvature="0" />
+        <g
+           id="g2662"
+           transform="translate(631.4053,742.5469)">
+          <path
+             d="m 0,0 -3.013,0 0,-5.354 5.364,0 C 2.336,-4.388 2.313,-3.454 2.283,-2.561 2.234,-1.153 1.256,0 0,0"
+             style="fill:#2d6759;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             id="path2664"
+             inkscape:connector-curvature="0" />
+        </g>
+        <path
+           d="m 630.101,718.347 0.94,0 0,24.2 -0.94,0 0,-24.2 z"
+           style="fill:#77b0a3;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           id="path2666"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 631.041,742.547 -0.94,0 0,-5.354 0.94,0 0,5.354 z"
+           style="fill:#4d8779;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           id="path2668"
+           inkscape:connector-curvature="0" />
+        <g
+           id="g2670"
+           transform="translate(633.8799,713.1299)">
+          <path
+             d="m 0,0 c 0.148,-3.247 0.438,-5.844 0.984,-7.262 l -7.32,0 c 0.536,3.703 0.849,7.803 0.849,12.479 l 5.296,0 C -0.191,3.394 -0.125,1.658 0,0"
+             style="fill:#4d8779;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             id="path2672"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g2674"
+           transform="translate(632.1396,705.8682)">
+          <path
+             d="m 0,0 -0.843,0 c -0.699,3.718 -1.175,7.813 -1.311,12.479 l 1.055,0 C -1.099,7.803 -0.691,3.703 0,0"
+             style="fill:#77b0a3;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             id="path2676"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g2678"
+           transform="translate(620.9883,705.8682)">
+          <path
+             d="m 0,0 -0.842,0 c 0.694,3.703 1.104,7.803 1.104,12.479 l 1.054,0 C 1.18,7.813 0.702,3.718 0,0"
+             style="fill:#4d8779;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             id="path2680"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g2682"
+           transform="translate(617.8184,748.5967)">
+          <path
+             d="m 0,0 16.617,0 c 1.119,0 2.034,-0.916 2.034,-2.035 l 0,-5.7 c 0,-1.119 -0.915,-2.035 -2.034,-2.035 L 0,-9.77 c -1.119,0 -2.035,0.916 -2.035,2.035 l 0,5.7 C -2.035,-0.916 -1.119,0 0,0"
+             style="fill:#2d6759;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             id="path2684"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g2686"
+           transform="translate(623.5049,748.5967)">
+          <path
+             d="m 0,0 10.931,0 c 1.119,0 2.034,-0.916 2.034,-2.035 l 0,-5.7 c 0,-1.119 -0.915,-2.035 -2.034,-2.035 L 0,-9.77 c -1.119,0 -2.034,0.916 -2.034,2.035 l 0,5.7 C -2.034,-0.916 -1.119,0 0,0"
+             style="fill:#4d8779;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             id="path2688"
+             inkscape:connector-curvature="0" />
+        </g>
+        <path
+           d="m 618.803,738.827 0.94,0 0,9.77 -0.94,0 0,-9.77 z"
+           style="fill:#4d8779;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           id="path2690"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 632.027,738.827 0.939,0 0,9.77 -0.939,0 0,-9.77 z"
+           style="fill:#77b0a3;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           id="path2692"
+           inkscape:connector-curvature="0" />
+        <g
+           id="g2694"
+           transform="translate(604.792,640.9678)">
+          <path
+             d="m 0,0 c 0.639,-6.42 1.773,-12.965 2.803,-20.127 l 37.063,0 C 40.896,-12.965 42.03,-6.42 42.669,0 L 31.323,0 c 0,5.833 -4.471,10.562 -9.988,10.562 C 15.817,10.562 11.346,5.833 11.346,0 L 0,0 Z"
+             style="fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             id="path2696"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g2698"
+           transform="translate(610.2344,620.8408)">
+          <path
+             d="m 0,0 c -0.847,7.132 -1.758,13.688 -2.278,20.127 l -3.164,0 C -4.804,13.707 -3.669,7.162 -2.64,0 L 0,0 Z"
+             style="fill:#e6e6e6;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             id="path2700"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g2702"
+           transform="translate(614.3203,640.9678)">
+          <path
+             d="m 0,0 c 0.586,-6.42 1.623,-12.965 2.565,-20.127 l 27.773,0 C 31.367,-12.965 32.502,-6.42 33.141,0 L 21.795,0 c 0,5.833 -4.472,10.562 -9.988,10.562 C 6.289,10.562 1.817,5.833 1.817,0 L 0,0 Z"
+             style="fill:#e6e6e6;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             id="path2704"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g2706"
+           transform="translate(644.2969,640.9678)">
+          <path
+             d="m 0,0 c -0.521,-6.438 -1.432,-12.995 -2.279,-20.127 l 2.64,0 C 1.391,-12.965 2.525,-6.42 3.164,0 L 0,0 Z"
+             style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             id="path2708"
+             inkscape:connector-curvature="0" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
