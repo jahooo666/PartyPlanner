@@ -13,6 +13,7 @@ public class CountingModule {
     private double ml;
     private double liters;
     private double price = 0;
+    private double prifferedPrice;
 
 
 
@@ -70,6 +71,29 @@ public class CountingModule {
         return liters * price;
     }
 
+    private String comparePrices(){
+        if(price()>10*prifferedPrice)
+            return "Brakuje Ci kupe kasy";
+        else if(price()>5*prifferedPrice)
+            return "Nie b¹dŸ ¿yd dorzuæ trochê";
+        else if(price()>2*prifferedPrice)
+            return "Ma³o kapusty!";
+        else if(price()>prifferedPrice)
+            return "Brak³o trochê :/";
+        else if(10*price()<prifferedPrice)
+            return "Szykuje siê gruba impreza, wzi¹³bym 10 razy tyle :P";
+        else if(5*price()<prifferedPrice)
+            return "WeŸ wiêcej, nie zmarnuje siê :D";
+        else if(2*price()<prifferedPrice)
+            return "Mo¿na szaleæ ;)";
+        else if(price()==prifferedPrice)
+            return "W sam raz :D";
+        else
+            return "Jeszcze pare mo¿na wzi¹æ";
+    }
+
+
+
     public static void main(String[] args) {
         CountingModule countingModule = new CountingModule();
         countingModule.numberOfMen = 2;
@@ -83,6 +107,8 @@ public class CountingModule {
         System.out.println(countingModule.price());
         System.out.println();
 
+        countingModule.prifferedPrice = 1000.0;
+        System.out.println(countingModule.comparePrices());
 
 
     }
