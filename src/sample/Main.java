@@ -1,9 +1,12 @@
 package sample;
 
 import javafx.application.Application;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
+import javafx.scene.control.ComboBox;
 import javafx.scene.control.TextField;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
@@ -38,7 +41,7 @@ public class Main extends Application {
         manImageView.setFitHeight( IconWidthHeight);
         manImageView.setFitWidth( IconWidthHeight);
         TextField manTextField = new TextField();
-        manTextField.setPromptText("Liczba mężczyzn");
+        manTextField.setPromptText("Liczba mÄ™ĹĽczyzn");
         manTextField.setAlignment(Pos.CENTER);
 
         /*        ObservableList<String> options =
@@ -85,10 +88,14 @@ public class Main extends Application {
         alcoholImageView.setSmooth(true);
         alcoholImageView.setFitHeight( IconWidthHeight);
         alcoholImageView.setFitWidth( IconWidthHeight);
+        /*
         TextField alcoholTextField = new TextField();
         alcoholTextField.setPromptText("Typ alkoholu");
         alcoholTextField.setAlignment(Pos.CENTER);
         alcoholVBox.getChildren().addAll(alcoholImageView,alcoholTextField);
+        */
+        final ComboBox alcohols = new ComboBox(FXCollections.observableArrayList("Piwo", "Wino", "Drinki", "Wódka"));
+        alcoholVBox.getChildren().addAll(alcoholImageView, alcohols);
 
         VBox sobertyLevelVBox = new VBox();
         Image sobertyLevelImage = new Image("graphics/stopien_1_hipster.png", true);
@@ -97,10 +104,14 @@ public class Main extends Application {
         sobertyLevelImageView.setSmooth(true);
         sobertyLevelImageView.setFitHeight( IconWidthHeight);
         sobertyLevelImageView.setFitWidth( IconWidthHeight);
+        /*
         TextField sobertyLevelTextField = new TextField();
         sobertyLevelTextField.setPromptText("Rodzaj imprezy");
         sobertyLevelTextField.setAlignment(Pos.CENTER);
         sobertyLevelVBox.getChildren().addAll(sobertyLevelImageView,sobertyLevelTextField);
+        */
+        final ComboBox partyType = new ComboBox(FXCollections.observableArrayList("Kulturalny bankiet", "Klasyczna domówka", "Mordor"));
+        sobertyLevelVBox.getChildren().addAll(sobertyLevelImageView, partyType);
 
         VBox moneyVBox = new VBox();
         Image moneyImage = new Image("graphics/5_kasa.png", true);
@@ -110,16 +121,16 @@ public class Main extends Application {
         moneyImageView.setFitHeight( IconWidthHeight);
         moneyImageView.setFitWidth(IconWidthHeight);
         TextField moneyTextField = new TextField();
-        moneyTextField.setPromptText("Dostępne fundusze");
+        moneyTextField.setPromptText("DostÄ™pne fundusze");
         moneyTextField.setAlignment(Pos.CENTER);
         moneyVBox.getChildren().addAll(moneyImageView,moneyTextField);
         
         hbox.getChildren().addAll(manVBox, womanVBox,clockVBox,alcoholVBox,sobertyLevelVBox,moneyVBox);
 
 
-        //bardzo nieprzyjemna metoda zmienienia marginu dla wszystkich Vboxów naraz.
+        //bardzo nieprzyjemna metoda zmienienia marginu dla wszystkich VboxĂłw naraz.
         for (int i = 0; i <hbox.getChildren().size() ; i++) {
-            hbox.setMargin(hbox.getChildren().get(i),new Insets(10,0,0,0)); //tutaj są wartości marginesów
+            hbox.setMargin(hbox.getChildren().get(i),new Insets(10,0,0,0)); //tutaj sÄ… wartoĹ›ci marginesĂłw
         }
         Scene scene = new Scene(hbox,1300, 600);
         window.setScene(scene);
