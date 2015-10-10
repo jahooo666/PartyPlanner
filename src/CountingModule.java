@@ -10,7 +10,7 @@ public class CountingModule {
     private int numberOfMen;
     private int numberOfWomen;
     private String PartyType;
-    private double grams;
+    private double ml;
     private double liters;
     private double price = 0;
 
@@ -19,7 +19,7 @@ public class CountingModule {
     private void countGrams(){
         double promilFactor = -(double)time * (-0.12) + promile + 0.12;
         double cleanAlcolInMl = promilFactor * 70;
-        grams =  cleanAlcolInMl * (numberOfMen + 0.5 * numberOfWomen);
+        ml =  cleanAlcolInMl * (numberOfMen + 0.5 * numberOfWomen);
     }
 
     private int chooseAlco(String PartyType) {
@@ -42,7 +42,7 @@ public class CountingModule {
     }
 
     private void countLiters(){
-        liters =  grams/chooseAlco(PartyType);
+        liters =  (ml / 10)/chooseAlco(PartyType);
     }
 
     private double price(){
@@ -54,10 +54,10 @@ public class CountingModule {
 
     public static void main(String[] args) {
         CountingModule countingModule = new CountingModule();
-        countingModule.numberOfMen = 1;
-        countingModule.numberOfWomen = 1;
+        countingModule.numberOfMen = 2;
+        countingModule.numberOfWomen = 2;
         countingModule.time = 3;
-        countingModule.promile = 1;
+        countingModule.promile = 0.5;
         countingModule.PartyType = "meeting";
         countingModule.countGrams();
         countingModule.countLiters();
