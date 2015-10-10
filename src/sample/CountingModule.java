@@ -1,5 +1,7 @@
+package sample;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.StringJoiner;
 
 /**
  * Created by Marcin on 2015-10-10.
@@ -9,90 +11,69 @@ public class CountingModule {
     private double time;
     private int numberOfMen;
     private int numberOfWomen;
-    private int typeOfAlcochol;
-    private double ml;
+    private String typeOfAlcochol;
+    private String typeOfParty;
     private double liters;
     private double price = 0;
     private double prifferedPrice;
 
-
-    public void setTime(double time){
-        this.time = time;
+    public void setNumberOfMen(int numberOfMen) {
+        this.numberOfMen = numberOfMen;
     }
 
-    public double getTime(){
-        return time;
-    }
-
-    public void setNumberOfWomen(int numberOfWomen){
+    public void setNumberOfWomen(int numberOfWomen) {
         this.numberOfWomen = numberOfWomen;
     }
 
-    public double getNumberOfWoman(){
-        return numberOfWomen;
+    public void setTypeOfAlcochol(String typeOfAlcochol) {
+        this.typeOfAlcochol = typeOfAlcochol;
     }
 
-    public void setNumberOfMan(int numberOfMan){
-        this.numberOfMen = numberOfMan;
+    public void setTypeOfParty(String typeOfParty) {
+        this.typeOfParty = typeOfParty;
     }
 
-    public double getNumberOfMan(){
-        return numberOfMen;
-    }
-
-    public void setPrifferedPrice(double prifferedPrice){
-        this.prifferedPrice = prifferedPrice;
-    }
-
-    public double getPrifferedPrice(){
-        return prifferedPrice;
-    }
-
-    private void countGrams(){
+    private double countGrams(){
         double promilFactor = -(double)time * (-0.12) + promile + 0.12;
         double cleanAlcolInMl = promilFactor * 70;
-        ml =  cleanAlcolInMl * (numberOfMen + 0.5 * numberOfWomen);
+        return cleanAlcolInMl * (numberOfMen + 0.5 * numberOfWomen);
     }
 
-    private void chooseTypeOfParty(int PartyType){
-        switch(PartyType){
-            case 1:
+    private void chooseTypeOfParty(String typeOfParty){
+        switch(typeOfParty){
+            case "Kulturalna prywatka":
                 promile = 0.5;
                 break;
-            case 2:
+            case "Klasyczna domówka":
                 promile = 1.35;
                 break;
-            case 3:
+            case "Mordownia":
                 promile = 2.5;
                 break;
         }
     }
 
-    private int chooseAlco(int typeOfAlcochol) {
+    private double chooseAlco(String typeOfAlcochol) {
         switch (typeOfAlcochol){
-            case 2:
-                price = 30;
-                this.typeOfAlcochol = 2;
-                return 12;
-            case 1:
+            case "Piwo":
                 price = 5;
-                this.typeOfAlcochol = 1;
-                return 5;
-            case 4:
+                return 0.05;
+            case "Wino":
                 price = 30;
-                this.typeOfAlcochol = 4;
-                return 38;
-            case 3:
-                price = 5;
-                this.typeOfAlcochol = 3;
-                return 20;
+                return 0.12;
+            case "Drinki":
+                price = 40;
+                return 0.5;
+            case "Wódka":
+                price = 30;
+                return 0.38;
             default:
                 return 0;
         }
     }
 
-    private void countLiters(){
-        liters =  (ml / 10)/chooseAlco(typeOfAlcochol);
+    private void countLiters(String typeOfAlcochol){
+        liters =  (countGrams() / 1000)/chooseAlco(typeOfAlcochol);
     }
 
     private double price(){
@@ -127,19 +108,18 @@ public class CountingModule {
 
     public static void main(String[] args) {
         CountingModule countingModule = new CountingModule();
-        countingModule.numberOfMen = 4;
-        countingModule.numberOfWomen =12;
+        countingModule.numberOfMen = 2;
+        countingModule.numberOfWomen = 2;
         countingModule.time = 3;
-        countingModule.chooseTypeOfParty(2);
-        countingModule.chooseAlco(1);
-        countingModule.countGrams();
-        countingModule.countLiters();
+        countingModule.chooseTypeOfParty("Mordownia");
+        countingModule.countLiters("Piwo");
         System.out.println(countingModule.liters);
         System.out.println(countingModule.price());
         System.out.println();
 
-        countingModule.prifferedPrice = 1000.0;
+        countingModule.prifferedPrice = 200;
         System.out.println(countingModule.comparePrices());
-        
+
+
     }
 }
