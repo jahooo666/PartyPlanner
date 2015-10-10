@@ -113,6 +113,7 @@ public class Main extends Application {
             };
         });
         alcoholVBox.setAlignment(Pos.TOP_CENTER);
+        alcohols.setPrefWidth(180);
 
         VBox sobertyLevelVBox = new VBox();
         Image sobertyLevelImage = new Image("graphics/stopien_1_hipster.png", true);
@@ -143,6 +144,7 @@ public class Main extends Application {
         sobertyLevelVBox.getChildren().addAll(sobertyLevelImageView, sobertyLevel);
         sobertyLevel.setPromptText("Rodzaj imprezy");
         sobertyLevelVBox.setAlignment(Pos.TOP_CENTER);
+        sobertyLevel.setPrefWidth(180);
 
         VBox moneyVBox = new VBox();
         Image moneyImage = new Image("graphics/5_kasa.png", true);
