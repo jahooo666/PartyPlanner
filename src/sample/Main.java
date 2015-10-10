@@ -290,7 +290,7 @@ public class Main extends Application {
         ImageView buttonView = new ImageView(new Image(getClass().getResourceAsStream("icon_small.png")));
         buttonView.fitHeightProperty();
         Button button = new Button("Oblicz", buttonView);
-        button.setStyle("-fx-font: 22 arial; -fx-base: lightgreen;"); //
+        button.setStyle("-fx-font: 22 arial; -fx-base: white;"); //
         button.setPrefWidth(200);
 
         Alert alert = new Alert(Alert.AlertType.INFORMATION);
