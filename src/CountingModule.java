@@ -7,6 +7,8 @@ import java.util.Map;
 public class CountingModule {
     private double promile;
     private double time;
+    private double cleanAlcolInMl;
+    private double membersOfPeople;
     private int numberOfMen;
     private int numberOfWomen;
     private String PartyType;
@@ -19,6 +21,17 @@ public class CountingModule {
 
         grams =  gramsPerPerson * (numberOfMen + 0.5 * numberOfWomen);
     }
+
+    public void cleanAlcochol(){
+        double promilFactor = -(double)time * (-0.12) + promile + 0.12;
+        cleanAlcolInMl = promilFactor * 70;
+    }
+
+    void numberOfPeople(){
+        membersOfPeople = (double)numberOfMen + (0.5*((double)numberOfWomen));
+    }
+    
+
 
     private int chooseAlco(String PartyType){
         switch (PartyType){
