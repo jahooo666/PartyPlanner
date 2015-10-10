@@ -33,11 +33,14 @@ public class Main extends Application {
         //Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
         window.setTitle("Party Planner");
         window.getIcons().add(new Image(Main.class.getResourceAsStream("icon.png")));
+        VBox mainVbox = new VBox();
+        HBox hbox1=new HBox();
+        HBox hbox2=new HBox();
+        hbox1.setSpacing(10);
+        hbox2.setSpacing(10);
 
-        HBox hbox=new HBox();
-        hbox.setSpacing(10);
-
-        hbox.setAlignment(Pos.CENTER);
+        hbox1.setAlignment(Pos.CENTER);
+        hbox2.setAlignment(Pos.CENTER);
         VBox manVBox = new VBox();
         Image manImage = new Image("graphics/1_facet.png", true);
         ImageView manImageView = new ImageView();
@@ -268,15 +271,21 @@ public class Main extends Application {
         clockTextField.setOnKeyPressed(keyEvent);
         moneyTextField.setOnKeyPressed(keyEvent);
         
-        hbox.getChildren().addAll(manVBox, womanVBox,clockVBox,alcoholVBox,sobertyLevelVBox,moneyVBox);
+        hbox1.getChildren().addAll(manVBox, womanVBox,clockVBox);
+        hbox2.getChildren().addAll(alcoholVBox,sobertyLevelVBox,moneyVBox);
 
 
         //bardzo nieprzyjemna metoda zmienienia marginu dla wszystkich Vboxów naraz.
-        for (int i = 0; i <hbox.getChildren().size() ; i++) {
-            hbox.setMargin(hbox.getChildren().get(i),new Insets(10,0,0,0)); //tutaj są wartości marginesów
-            ((VBox)hbox.getChildren().get(i)).setSpacing(10);
+        for (int i = 0; i <hbox1.getChildren().size() ; i++) {
+            hbox1.setMargin(hbox1.getChildren().get(i),new Insets(10,0,0,0)); //tutaj są wartości marginesów
+            hbox2.setMargin(hbox1.getChildren().get(i),new Insets(0,0,10,0)); //tutaj są wartości marginesów
+
+            ((VBox)hbox1.getChildren().get(i)).setSpacing(10);
+            ((VBox)hbox2.getChildren().get(i)).setSpacing(10);
         }
-        Scene scene = new Scene(hbox,1300, 600);
+
+        mainVbox.getChildren().addAll(hbox1,hbox2);
+        Scene scene = new Scene(mainVbox,800, 600);
         window.setScene(scene);
         window.show();
     }
