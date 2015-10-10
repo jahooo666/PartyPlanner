@@ -176,8 +176,8 @@ public class Main extends Application {
         ImageView sobertyLevelImageView = new ImageView();
         sobertyLevelImageView.setImage(sobertyLevelImage);
         sobertyLevelImageView.setSmooth(true);
-        sobertyLevelImageView.setFitHeight(IconWidthHeight);
-        sobertyLevelImageView.setFitWidth(IconWidthHeight);
+        sobertyLevelImageView.setFitHeight( IconWidthHeight);
+        sobertyLevelImageView.setFitWidth( IconWidthHeight);
         /*
         TextField sobertyLevelTextField = new TextField();
         sobertyLevelTextField.setPromptText("Rodzaj imprezy");
@@ -255,11 +255,18 @@ public class Main extends Application {
                         }
                         if(anyEmpty == false) {
                             //uruchomieni aplikacji
-                            //CountingModule cm = new CountingModule();
-                            //cm.setNumberOfMen(Integer.parseInt(manTextField.getCharacters().toString()));
-                            //cm.setNumberOfWomen(Integer.parseInt(womanTextField.getCharacters().toString()));
-                            //cm.setTypeOfAlcochol(alcohols.getValue().toString());
-                            //cm.setTypeOfParty(sobertyLevel.getValue().toString());
+                            CountingModule cm = new CountingModule();
+                            cm.setTime(Integer.parseInt(clockTextField.getText()));
+                            cm.setPrefferedPrice(Integer.parseInt(moneyTextField.getText()));
+                            cm.setNumberOfWomen(Integer.parseInt(womanTextField.getText()));
+                            cm.setNumberOfMen(Integer.parseInt(manTextField.getText()));
+                            cm.setTypeOfParty(sobertyLevel.getValue().toString());
+                            cm.setTypeOfAlcochol(alcohols.getValue().toString());
+                            cm.countLiters();
+                            cm.price();
+                            cm.comparePrices();
+                            System.out.println(cm.getLiters());
+                            System.out.println(cm.getPrice());
                         }
                     }
                 }

@@ -1,5 +1,7 @@
+package sample;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.StringJoiner;
 
 /**
  * Created by Marcin on 2015-10-10.
@@ -9,107 +11,126 @@ public class CountingModule {
     private double time;
     private int numberOfMen;
     private int numberOfWomen;
-    private int typeOfAlcochol;
-    private double ml;
+    private String typeOfAlcochol;
+    private String typeOfParty;
     private double liters;
-    private double price = 0;
-    private double prifferedPrice;
+    private double price;
+    private double prefferedPrice;
 
-
-
-    private void countGrams(){
-        double promilFactor = -(double)time * (-0.12) + promile + 0.12;
-        double cleanAlcolInMl = promilFactor * 70;
-        ml =  cleanAlcolInMl * (numberOfMen + 0.5 * numberOfWomen);
+    public void setNumberOfMen(int numberOfMen) {
+        this.numberOfMen = numberOfMen;
+    }
+    public void setNumberOfWomen(int numberOfWomen) {
+        this.numberOfWomen = numberOfWomen;
+    }
+    public void setTypeOfAlcochol(String typeOfAlcochol) {
+        this.typeOfAlcochol = typeOfAlcochol;
+    }
+    public void setTypeOfParty(String typeOfParty) {
+        this.typeOfParty = typeOfParty;
+    }
+    public void setPrefferedPrice(double prefferedPrice) {
+        this.prefferedPrice = prefferedPrice;
+    }
+    public void setTime(double time) {
+        this.time = time;
+    }
+    public double getLiters() {
+        return liters;
+    }
+    public double getPrice() {
+        return price;
     }
 
-    private void chooseTypeOfParty(int PartyType){
-        switch(PartyType){
-            case 1:
+
+    private double countGrams(){
+        chooseTypeOfParty(typeOfParty);
+        double promilFactor = -(double)time * (-0.12) + promile + 0.12;
+        double cleanAlcolInMl = promilFactor * 70;
+        return cleanAlcolInMl * (numberOfMen + 0.5 * numberOfWomen);
+    }
+
+    private void chooseTypeOfParty(String typeOfParty){
+        switch(typeOfParty){
+            case "Kulturalna prywatka":
                 promile = 0.5;
                 break;
-            case 2:
+            case "Klasyczna domÃ³wka":
                 promile = 1.35;
                 break;
-            case 3:
+            case "Mordownia":
                 promile = 2.5;
                 break;
         }
     }
 
-    private int chooseAlco(int typeOfAlcochol) {
+    private double chooseAlco(String typeOfAlcochol) {
         switch (typeOfAlcochol){
-            case 2:
-                price = 30;
-                this.typeOfAlcochol = 2;
-                return 12;
-            case 1:
+            case "Piwo":
                 price = 5;
-                this.typeOfAlcochol = 1;
-                return 5;
-            case 4:
+                return 0.05;
+            case "Wino":
                 price = 30;
-                this.typeOfAlcochol = 4;
-                return 38;
-            case 3:
-                price = 5;
-                this.typeOfAlcochol = 3;
-                return 20;
+                return 0.12;
+            case "Drinki":
+                price = 40;
+                return 0.5;
+            case "WÃ³dka":
+                price = 30;
+                return 0.38;
             default:
                 return 0;
         }
     }
 
-    private void countLiters(){
-        liters =  (ml / 10)/chooseAlco(typeOfAlcochol);
+    public void countLiters(){
+        liters =  (countGrams() / 1000)/chooseAlco(typeOfAlcochol);
     }
 
-    private double price(){
+    public double price(){
         if(price == 0){
             chooseAlco(typeOfAlcochol);
         }
         return liters * price;
     }
 
-    private String comparePrices(){
-        if(price()>10*prifferedPrice)
+    public String comparePrices(){
+        if(price()>10*prefferedPrice)
             return "Brakuje Ci kupe kasy";
-        else if(price()>5*prifferedPrice)
-            return "Nie b¹dŸ ¿yd dorzuæ trochê";
-        else if(price()>2*prifferedPrice)
-            return "Ma³o kapusty!";
-        else if(price()>prifferedPrice)
-            return "Brak³o trochê :/";
-        else if(10*price()<prifferedPrice)
-            return "Szykuje siê gruba impreza, wzi¹³bym 10 razy tyle :P";
-        else if(5*price()<prifferedPrice)
-            return "WeŸ wiêcej, nie zmarnuje siê :D";
-        else if(2*price()<prifferedPrice)
-            return "Mo¿na szaleæ ;)";
-        else if(price()==prifferedPrice)
+        else if(price()>5*prefferedPrice)
+            return "Nie bÄ…dÅº Å¼yd dorzuÄ‡ trochÄ™";
+        else if(price()>2*prefferedPrice)
+            return "MaÅ‚o kapusty!";
+        else if(price()>prefferedPrice)
+            return "BrakÅ‚o trochÄ™ :/";
+        else if(10*price()<prefferedPrice)
+            return "Szykuje siÄ™ gruba impreza, wziÄ…Å‚bym 10 razy tyle :P";
+        else if(5*price()<prefferedPrice)
+            return "WeÅº wiÄ™cej, nie zmarnuje siÄ™ :D";
+        else if(2*price()<prefferedPrice)
+            return "MoÅ¼na szaleÄ‡ ;)";
+        else if(price()==prefferedPrice)
             return "W sam raz :D";
         else
-            return "Jeszcze pare mo¿na wzi¹æ";
+            return "Jeszcze pare moÅ¼na wziÄ…Ä‡";
     }
 
 
 
     public static void main(String[] args) {
-        CountingModule countingModule = new CountingModule();
-        countingModule.numberOfMen = 2;
-        countingModule.numberOfWomen = 2;
-        countingModule.time = 3;
-        countingModule.chooseTypeOfParty(2);
-        countingModule.chooseAlco(1);
-        countingModule.countGrams();
-        countingModule.countLiters();
-        System.out.println(countingModule.liters);
-        System.out.println(countingModule.price());
-        System.out.println();
-
-        countingModule.prifferedPrice = 1000.0;
-        System.out.println(countingModule.comparePrices());
-
-
+        CountingModule cm = new CountingModule();
+        cm.setTime(5);
+        cm.setPrefferedPrice(20);
+        cm.setNumberOfWomen(1);
+        cm.setNumberOfMen(1);
+        cm.setTypeOfParty("Mordownia");
+        cm.setTypeOfAlcochol("Piwo");
+        cm.countLiters();
+        cm.price();
+        cm.comparePrices();
+        System.out.println(cm.promile);
+        System.out.println(cm.liters);
+        System.out.println(cm.price());
+        System.out.println(cm.comparePrices());
     }
 }
