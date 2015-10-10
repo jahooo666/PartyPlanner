@@ -42,11 +42,12 @@ public class Main extends Application {
         ImageView manImageView = new ImageView();
         manImageView.setImage(manImage);
         manImageView.setSmooth(true);
-        manImageView.setFitHeight( IconWidthHeight);
-        manImageView.setFitWidth( IconWidthHeight);
+        manImageView.setFitHeight(IconWidthHeight);
+        manImageView.setFitWidth(IconWidthHeight);
         TextField manTextField = new TextField();
         manTextField.setPromptText("Liczba mężczyzn");
         manTextField.setAlignment(Pos.CENTER);
+
 
         /*        ObservableList<String> options =
                 FXCollections.observableArrayList(
@@ -138,8 +139,8 @@ public class Main extends Application {
         ImageView sobertyLevelImageView = new ImageView();
         sobertyLevelImageView.setImage(sobertyLevelImage);
         sobertyLevelImageView.setSmooth(true);
-        sobertyLevelImageView.setFitHeight( IconWidthHeight);
-        sobertyLevelImageView.setFitWidth( IconWidthHeight);
+        sobertyLevelImageView.setFitHeight(IconWidthHeight);
+        sobertyLevelImageView.setFitWidth(IconWidthHeight);
         /*
         TextField sobertyLevelTextField = new TextField();
         sobertyLevelTextField.setPromptText("Rodzaj imprezy");
