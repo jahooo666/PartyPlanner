@@ -1,6 +1,7 @@
 package sample;
 
 import javafx.application.Application;
+import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.control.TextField;
@@ -16,7 +17,8 @@ import javafx.stage.Stage;
 public class Main extends Application {
     Stage window;
     BorderPane layout;
-    final int IconWidthHeight= 220;
+    final int IconWidthHeight= 200;
+    final int margin=10;
     @Override
     public void start(Stage primaryStage) throws Exception{
         window = primaryStage;
@@ -25,7 +27,9 @@ public class Main extends Application {
         window.getIcons().add(new Image(Main.class.getResourceAsStream("icon.png")));
 
         HBox hbox=new HBox();
+        hbox.setSpacing(10);
 
+        hbox.setAlignment(Pos.CENTER);
         VBox manVBox = new VBox();
         Image manImage = new Image("graphics/1_facet.png", true);
         ImageView manImageView = new ImageView();
@@ -34,7 +38,7 @@ public class Main extends Application {
         manImageView.setFitHeight( IconWidthHeight);
         manImageView.setFitWidth( IconWidthHeight);
         TextField manTextField = new TextField();
-        manTextField.setPromptText("Liczba m�czyzn");
+        manTextField.setPromptText("Liczba mężczyzn");
         manTextField.setAlignment(Pos.CENTER);
 
         /*        ObservableList<String> options =
@@ -73,17 +77,51 @@ public class Main extends Application {
         clockTextField.setPromptText("Czas trwania");
         clockTextField.setAlignment(Pos.CENTER);
         clockVBox.getChildren().addAll(clockImageView,clockTextField);
-        
-        
-        
-        
-        
 
-        hbox.getChildren().addAll(manVBox, womanVBox,clockVBox);
+        VBox alcoholVBox = new VBox();
+        Image alcoholImage = new Image("graphics/4_drinki.png", true);
+        ImageView alcoholImageView = new ImageView();
+        alcoholImageView.setImage(alcoholImage);
+        alcoholImageView.setSmooth(true);
+        alcoholImageView.setFitHeight( IconWidthHeight);
+        alcoholImageView.setFitWidth( IconWidthHeight);
+        TextField alcoholTextField = new TextField();
+        alcoholTextField.setPromptText("Typ alkoholu");
+        alcoholTextField.setAlignment(Pos.CENTER);
+        alcoholVBox.getChildren().addAll(alcoholImageView,alcoholTextField);
+
+        VBox sobertyLevelVBox = new VBox();
+        Image sobertyLevelImage = new Image("graphics/stopien_1_hipster.png", true);
+        ImageView sobertyLevelImageView = new ImageView();
+        sobertyLevelImageView.setImage(sobertyLevelImage);
+        sobertyLevelImageView.setSmooth(true);
+        sobertyLevelImageView.setFitHeight( IconWidthHeight);
+        sobertyLevelImageView.setFitWidth( IconWidthHeight);
+        TextField sobertyLevelTextField = new TextField();
+        sobertyLevelTextField.setPromptText("Rodzaj imprezy");
+        sobertyLevelTextField.setAlignment(Pos.CENTER);
+        sobertyLevelVBox.getChildren().addAll(sobertyLevelImageView,sobertyLevelTextField);
+
+        VBox moneyVBox = new VBox();
+        Image moneyImage = new Image("graphics/5_kasa.png", true);
+        ImageView moneyImageView = new ImageView();
+        moneyImageView.setImage(moneyImage);
+        moneyImageView.setSmooth(true);
+        moneyImageView.setFitHeight( IconWidthHeight);
+        moneyImageView.setFitWidth(IconWidthHeight);
+        TextField moneyTextField = new TextField();
+        moneyTextField.setPromptText("Dostępne fundusze");
+        moneyTextField.setAlignment(Pos.CENTER);
+        moneyVBox.getChildren().addAll(moneyImageView,moneyTextField);
+        
+        hbox.getChildren().addAll(manVBox, womanVBox,clockVBox,alcoholVBox,sobertyLevelVBox,moneyVBox);
 
 
-
-        Scene scene = new Scene(hbox,1200, 600);
+        //bardzo nieprzyjemna metoda zmienienia marginu dla wszystkich Vboxów naraz.
+        for (int i = 0; i <hbox.getChildren().size() ; i++) {
+            hbox.setMargin(hbox.getChildren().get(i),new Insets(10,0,0,0)); //tutaj są wartości marginesów
+        }
+        Scene scene = new Scene(hbox,1300, 600);
         window.setScene(scene);
         window.show();
 
