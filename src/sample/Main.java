@@ -96,6 +96,7 @@ public class Main extends Application {
         alcoholVBox.getChildren().addAll(alcoholImageView, alcoholTextField);
         */
         final ComboBox alcohols = new ComboBox(FXCollections.observableArrayList("Piwo", "Wino", "Drinki", "Wódka"));
+        alcohols.setPromptText("Typ alkoholu");
         alcoholVBox.getChildren().addAll(alcoholImageView, alcohols);
         alcohols.valueProperty().addListener(new ChangeListener<String>() {
             @Override public void changed(ObservableValue ov, String t, String t1) {
@@ -111,6 +112,7 @@ public class Main extends Application {
 
             };
         });
+        alcoholVBox.setAlignment(Pos.TOP_CENTER);
 
         VBox sobertyLevelVBox = new VBox();
         Image sobertyLevelImage = new Image("graphics/stopien_1_hipster.png", true);
@@ -139,6 +141,8 @@ public class Main extends Application {
             };
         });
         sobertyLevelVBox.getChildren().addAll(sobertyLevelImageView, sobertyLevel);
+        sobertyLevel.setPromptText("Rodzaj imprezy");
+        sobertyLevelVBox.setAlignment(Pos.TOP_CENTER);
 
         VBox moneyVBox = new VBox();
         Image moneyImage = new Image("graphics/5_kasa.png", true);
@@ -158,6 +162,7 @@ public class Main extends Application {
         //bardzo nieprzyjemna metoda zmienienia marginu dla wszystkich Vboxów naraz.
         for (int i = 0; i <hbox.getChildren().size() ; i++) {
             hbox.setMargin(hbox.getChildren().get(i),new Insets(10,0,0,0)); //tutaj są wartości marginesów
+            ((VBox)hbox.getChildren().get(i)).setSpacing(10);
         }
         Scene scene = new Scene(hbox,1300, 600);
         window.setScene(scene);
